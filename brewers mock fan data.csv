@@ -1,0 +1,1001 @@
+Fan_ID,Segment,Attendance_Behavior,Email_Engagement,Interests,Notes
+1,Die-hard,Season ticket holder,High,Division rivals,Prefers night games
+2,F&B,Group outings,Very High,Beer specials,Suite interest
+3,Die-hard,Attends 15+ games,Low,Pitching matchups,Clicks lineup emails
+4,F&B,Group outings,High,Beer specials,Weekend preference
+5,Family,Buys 4+ tickets,High,Ease of access,Needs parking info
+6,F&B,Casual attendee,Very High,Theme nights,Group discounts
+7,F&B,Casual attendee,Medium,Social atmosphere,Weekend preference
+8,Die-hard,Opening day + playoffs,Medium,Pitching matchups,Follows trades
+9,Family,2-3 games/year,Low,Ease of access,Prefers Sunday games
+10,Die-hard,Attends 15+ games,Very High,Roster moves,Clicks lineup emails
+11,Die-hard,Attends 15+ games,Medium,Pitching matchups,Follows trades
+12,F&B,Group outings,Low,New food items,Suite interest
+13,F&B,Corporate outings,Very High,Beer specials,Suite interest
+14,Family,2-3 games/year,High,Ease of access,Early start times
+15,F&B,Casual attendee,Low,Beer specials,Group discounts
+16,Family,Buys 4+ tickets,High,Giveaways,Early start times
+17,F&B,Corporate outings,Very High,Social atmosphere,Suite interest
+18,Die-hard,Premium seats buyer,High,Roster moves,Clicks lineup emails
+19,Family,Repeat attendee,High,Ease of access,Discount sensitive
+20,Die-hard,Season ticket holder,High,Pitching matchups,Clicks lineup emails
+21,Family,Buys 4+ tickets,Medium,Safety,Prefers Sunday games
+22,F&B,Group outings,High,Social atmosphere,Weekend preference
+23,Family,Buys 4+ tickets,Low,Kid-friendly activities,Needs parking info
+24,Die-hard,Opening day + playoffs,Very High,Player stats,Clicks lineup emails
+25,F&B,Corporate outings,Very High,Beer specials,Suite interest
+26,Family,2-3 games/year,Medium,Safety,Prefers Sunday games
+27,F&B,3-5 games/year,Very High,Social atmosphere,Weekend preference
+28,Die-hard,Opening day + playoffs,Very High,Roster moves,Prefers night games
+29,F&B,Group outings,Low,Social atmosphere,Group discounts
+30,Family,First-time attendee,Low,Giveaways,Needs parking info
+31,Family,Repeat attendee,High,Safety,Discount sensitive
+32,Die-hard,Premium seats buyer,Very High,Roster moves,Follows trades
+33,F&B,Casual attendee,Low,Beer specials,Suite interest
+34,F&B,Group outings,Very High,Beer specials,Suite interest
+35,Family,Buys 4+ tickets,High,Kid-friendly activities,Prefers Sunday games
+36,F&B,3-5 games/year,Low,Theme nights,Group discounts
+37,Family,2-3 games/year,Medium,Ease of access,Prefers Sunday games
+38,Die-hard,Premium seats buyer,Very High,Roster moves,Prefers night games
+39,Family,First-time attendee,Very High,Giveaways,Early start times
+40,Die-hard,Opening day + playoffs,High,Player stats,Follows trades
+41,Die-hard,Premium seats buyer,Low,Division rivals,Reads long-form content
+42,Die-hard,Opening day + playoffs,Medium,Roster moves,Reads long-form content
+43,F&B,3-5 games/year,Medium,Beer specials,Suite interest
+44,F&B,Casual attendee,High,New food items,Suite interest
+45,Family,Buys 4+ tickets,Low,Kid-friendly activities,Needs parking info
+46,F&B,Group outings,Medium,Social atmosphere,Responds to promos
+47,F&B,Corporate outings,Medium,New food items,Responds to promos
+48,F&B,Corporate outings,Medium,Social atmosphere,Weekend preference
+49,Die-hard,Attends 15+ games,High,Division rivals,Prefers night games
+50,Family,Buys 4+ tickets,Low,Safety,Needs parking info
+51,Die-hard,Attends 15+ games,Very High,Roster moves,Clicks lineup emails
+52,Die-hard,Season ticket holder,Medium,Division rivals,Clicks lineup emails
+53,Family,Buys 4+ tickets,Medium,Giveaways,Discount sensitive
+54,Die-hard,Opening day + playoffs,High,Roster moves,Follows trades
+55,Family,Buys 4+ tickets,Low,Kid-friendly activities,Discount sensitive
+56,F&B,Group outings,Low,Beer specials,Weekend preference
+57,F&B,3-5 games/year,Low,Beer specials,Responds to promos
+58,Family,Repeat attendee,Low,Safety,Needs parking info
+59,Family,Repeat attendee,Low,Ease of access,Early start times
+60,Die-hard,Attends 15+ games,Very High,Player stats,Reads long-form content
+61,Die-hard,Attends 15+ games,Very High,Player stats,Follows trades
+62,Family,Repeat attendee,Low,Ease of access,Discount sensitive
+63,Die-hard,Season ticket holder,Low,Division rivals,Follows trades
+64,Die-hard,Attends 15+ games,Low,Player stats,Clicks lineup emails
+65,F&B,Group outings,High,Theme nights,Responds to promos
+66,F&B,Corporate outings,Very High,Social atmosphere,Weekend preference
+67,Family,Buys 4+ tickets,Medium,Giveaways,Prefers Sunday games
+68,Family,2-3 games/year,Very High,Giveaways,Discount sensitive
+69,Die-hard,Premium seats buyer,High,Pitching matchups,Follows trades
+70,Family,First-time attendee,Low,Kid-friendly activities,Prefers Sunday games
+71,F&B,Casual attendee,Medium,Theme nights,Suite interest
+72,F&B,Corporate outings,Very High,Beer specials,Weekend preference
+73,Die-hard,Season ticket holder,High,Player stats,Clicks lineup emails
+74,Family,2-3 games/year,Very High,Ease of access,Needs parking info
+75,Die-hard,Season ticket holder,Very High,Roster moves,Clicks lineup emails
+76,Family,2-3 games/year,Low,Ease of access,Needs parking info
+77,F&B,Group outings,Low,Beer specials,Suite interest
+78,Die-hard,Opening day + playoffs,Medium,Division rivals,Prefers night games
+79,Die-hard,Season ticket holder,High,Division rivals,Clicks lineup emails
+80,Die-hard,Premium seats buyer,Medium,Pitching matchups,Prefers night games
+81,Die-hard,Premium seats buyer,Very High,Player stats,Reads long-form content
+82,F&B,Group outings,Very High,Social atmosphere,Weekend preference
+83,Die-hard,Season ticket holder,Low,Pitching matchups,Prefers night games
+84,Family,Repeat attendee,Low,Kid-friendly activities,Prefers Sunday games
+85,Family,First-time attendee,High,Ease of access,Early start times
+86,F&B,Corporate outings,Medium,Theme nights,Weekend preference
+87,Family,First-time attendee,Medium,Giveaways,Prefers Sunday games
+88,Die-hard,Premium seats buyer,Very High,Player stats,Follows trades
+89,F&B,Casual attendee,Low,Beer specials,Suite interest
+90,Family,First-time attendee,Medium,Giveaways,Early start times
+91,Die-hard,Season ticket holder,Low,Player stats,Clicks lineup emails
+92,F&B,Group outings,Medium,New food items,Responds to promos
+93,Family,First-time attendee,Medium,Ease of access,Needs parking info
+94,Die-hard,Season ticket holder,High,Division rivals,Prefers night games
+95,Family,Buys 4+ tickets,Medium,Giveaways,Early start times
+96,Die-hard,Premium seats buyer,Low,Pitching matchups,Prefers night games
+97,F&B,3-5 games/year,Very High,Beer specials,Group discounts
+98,F&B,Group outings,High,Theme nights,Suite interest
+99,F&B,Casual attendee,High,Beer specials,Group discounts
+100,Family,Repeat attendee,Low,Safety,Discount sensitive
+101,Die-hard,Season ticket holder,Very High,Division rivals,Reads long-form content
+102,F&B,Corporate outings,Medium,New food items,Suite interest
+103,F&B,Casual attendee,Very High,New food items,Group discounts
+104,Die-hard,Opening day + playoffs,Low,Division rivals,Follows trades
+105,Die-hard,Premium seats buyer,High,Pitching matchups,Prefers night games
+106,Die-hard,Premium seats buyer,Medium,Player stats,Clicks lineup emails
+107,Family,First-time attendee,Medium,Kid-friendly activities,Discount sensitive
+108,Family,Buys 4+ tickets,Low,Safety,Prefers Sunday games
+109,F&B,Casual attendee,Medium,Social atmosphere,Group discounts
+110,Die-hard,Season ticket holder,Low,Division rivals,Clicks lineup emails
+111,F&B,Group outings,Very High,Beer specials,Group discounts
+112,Family,First-time attendee,Medium,Safety,Early start times
+113,Die-hard,Opening day + playoffs,Very High,Player stats,Follows trades
+114,Die-hard,Opening day + playoffs,Medium,Player stats,Reads long-form content
+115,Die-hard,Opening day + playoffs,Medium,Player stats,Prefers night games
+116,F&B,3-5 games/year,Medium,Social atmosphere,Weekend preference
+117,F&B,Casual attendee,Very High,Beer specials,Weekend preference
+118,Family,2-3 games/year,Low,Ease of access,Discount sensitive
+119,Die-hard,Opening day + playoffs,Medium,Pitching matchups,Clicks lineup emails
+120,F&B,Corporate outings,High,Theme nights,Responds to promos
+121,Family,First-time attendee,Medium,Kid-friendly activities,Discount sensitive
+122,Die-hard,Premium seats buyer,Medium,Player stats,Prefers night games
+123,Die-hard,Premium seats buyer,Very High,Pitching matchups,Follows trades
+124,F&B,Corporate outings,High,Theme nights,Group discounts
+125,Family,First-time attendee,Medium,Giveaways,Discount sensitive
+126,Family,2-3 games/year,Medium,Ease of access,Discount sensitive
+127,Family,Buys 4+ tickets,High,Kid-friendly activities,Prefers Sunday games
+128,F&B,Casual attendee,Medium,Beer specials,Suite interest
+129,Die-hard,Attends 15+ games,Medium,Roster moves,Follows trades
+130,Family,Repeat attendee,Low,Kid-friendly activities,Discount sensitive
+131,F&B,3-5 games/year,Medium,New food items,Responds to promos
+132,Die-hard,Season ticket holder,Low,Roster moves,Reads long-form content
+133,Family,Buys 4+ tickets,Low,Kid-friendly activities,Needs parking info
+134,F&B,Group outings,Medium,Social atmosphere,Responds to promos
+135,Family,First-time attendee,High,Safety,Early start times
+136,Die-hard,Premium seats buyer,Low,Roster moves,Follows trades
+137,Family,2-3 games/year,Low,Kid-friendly activities,Early start times
+138,Family,Repeat attendee,Low,Ease of access,Prefers Sunday games
+139,Family,First-time attendee,Low,Giveaways,Prefers Sunday games
+140,F&B,Group outings,Very High,Beer specials,Responds to promos
+141,Family,First-time attendee,High,Giveaways,Discount sensitive
+142,Family,First-time attendee,High,Kid-friendly activities,Prefers Sunday games
+143,Die-hard,Premium seats buyer,Medium,Pitching matchups,Follows trades
+144,Die-hard,Premium seats buyer,Medium,Pitching matchups,Reads long-form content
+145,Family,2-3 games/year,High,Safety,Early start times
+146,F&B,3-5 games/year,Medium,New food items,Group discounts
+147,Die-hard,Opening day + playoffs,Very High,Division rivals,Clicks lineup emails
+148,F&B,Casual attendee,Very High,Beer specials,Responds to promos
+149,Family,Repeat attendee,Medium,Ease of access,Early start times
+150,Family,2-3 games/year,Medium,Giveaways,Needs parking info
+151,Die-hard,Opening day + playoffs,Very High,Pitching matchups,Prefers night games
+152,F&B,3-5 games/year,Low,Theme nights,Suite interest
+153,Die-hard,Season ticket holder,Medium,Pitching matchups,Follows trades
+154,Die-hard,Attends 15+ games,Low,Division rivals,Reads long-form content
+155,Die-hard,Opening day + playoffs,Low,Division rivals,Prefers night games
+156,F&B,Corporate outings,High,New food items,Responds to promos
+157,Family,2-3 games/year,Low,Safety,Needs parking info
+158,Family,Repeat attendee,Medium,Giveaways,Prefers Sunday games
+159,F&B,3-5 games/year,Very High,Social atmosphere,Group discounts
+160,F&B,3-5 games/year,Low,New food items,Responds to promos
+161,Die-hard,Premium seats buyer,Very High,Player stats,Prefers night games
+162,Die-hard,Premium seats buyer,Very High,Division rivals,Prefers night games
+163,Die-hard,Opening day + playoffs,Very High,Pitching matchups,Follows trades
+164,F&B,Casual attendee,Medium,New food items,Group discounts
+165,F&B,Group outings,Low,Social atmosphere,Responds to promos
+166,Family,Repeat attendee,Very High,Ease of access,Prefers Sunday games
+167,Family,Buys 4+ tickets,High,Giveaways,Discount sensitive
+168,Die-hard,Season ticket holder,Low,Roster moves,Prefers night games
+169,Die-hard,Attends 15+ games,Medium,Roster moves,Follows trades
+170,Die-hard,Premium seats buyer,High,Division rivals,Prefers night games
+171,F&B,Casual attendee,Medium,New food items,Responds to promos
+172,F&B,3-5 games/year,Low,New food items,Group discounts
+173,Die-hard,Season ticket holder,Medium,Pitching matchups,Prefers night games
+174,Family,Repeat attendee,Low,Kid-friendly activities,Discount sensitive
+175,Die-hard,Opening day + playoffs,Low,Pitching matchups,Prefers night games
+176,Family,Repeat attendee,Low,Ease of access,Needs parking info
+177,Family,Buys 4+ tickets,Medium,Safety,Early start times
+178,Die-hard,Season ticket holder,Very High,Pitching matchups,Prefers night games
+179,F&B,Corporate outings,Very High,Theme nights,Group discounts
+180,Die-hard,Season ticket holder,High,Player stats,Reads long-form content
+181,F&B,3-5 games/year,Medium,New food items,Weekend preference
+182,F&B,3-5 games/year,Medium,Social atmosphere,Responds to promos
+183,F&B,3-5 games/year,High,New food items,Suite interest
+184,Family,First-time attendee,Very High,Giveaways,Early start times
+185,Die-hard,Premium seats buyer,Low,Roster moves,Follows trades
+186,Family,First-time attendee,Medium,Ease of access,Needs parking info
+187,Die-hard,Premium seats buyer,Low,Pitching matchups,Reads long-form content
+188,Die-hard,Opening day + playoffs,Very High,Division rivals,Follows trades
+189,Die-hard,Premium seats buyer,Very High,Player stats,Reads long-form content
+190,F&B,Casual attendee,Low,Social atmosphere,Group discounts
+191,Family,Repeat attendee,Medium,Safety,Discount sensitive
+192,Die-hard,Season ticket holder,High,Roster moves,Prefers night games
+193,Family,Buys 4+ tickets,Very High,Ease of access,Prefers Sunday games
+194,Family,Repeat attendee,High,Ease of access,Prefers Sunday games
+195,F&B,Corporate outings,Low,Theme nights,Responds to promos
+196,Die-hard,Opening day + playoffs,High,Pitching matchups,Follows trades
+197,Die-hard,Premium seats buyer,Low,Player stats,Follows trades
+198,Die-hard,Premium seats buyer,Medium,Roster moves,Clicks lineup emails
+199,F&B,3-5 games/year,Low,Social atmosphere,Weekend preference
+200,F&B,3-5 games/year,Medium,Beer specials,Responds to promos
+201,Family,2-3 games/year,Very High,Safety,Discount sensitive
+202,Family,2-3 games/year,Low,Ease of access,Prefers Sunday games
+203,F&B,Group outings,Low,Beer specials,Group discounts
+204,F&B,Casual attendee,High,Theme nights,Suite interest
+205,F&B,Group outings,Very High,Beer specials,Weekend preference
+206,F&B,3-5 games/year,Medium,Social atmosphere,Responds to promos
+207,Family,First-time attendee,High,Ease of access,Needs parking info
+208,F&B,3-5 games/year,Low,Theme nights,Group discounts
+209,F&B,3-5 games/year,High,Social atmosphere,Suite interest
+210,Family,First-time attendee,Medium,Safety,Early start times
+211,Family,First-time attendee,High,Giveaways,Early start times
+212,Die-hard,Opening day + playoffs,High,Pitching matchups,Reads long-form content
+213,Family,First-time attendee,Low,Safety,Early start times
+214,F&B,Casual attendee,Medium,Theme nights,Group discounts
+215,Die-hard,Opening day + playoffs,High,Player stats,Follows trades
+216,F&B,Group outings,High,New food items,Group discounts
+217,Die-hard,Premium seats buyer,High,Player stats,Follows trades
+218,F&B,Casual attendee,Very High,New food items,Weekend preference
+219,F&B,3-5 games/year,High,New food items,Weekend preference
+220,F&B,Casual attendee,Medium,New food items,Responds to promos
+221,Family,Repeat attendee,Very High,Kid-friendly activities,Prefers Sunday games
+222,F&B,3-5 games/year,Very High,Theme nights,Responds to promos
+223,F&B,Group outings,Very High,Theme nights,Weekend preference
+224,F&B,3-5 games/year,Low,Theme nights,Group discounts
+225,Family,First-time attendee,Medium,Safety,Early start times
+226,F&B,Group outings,Medium,Social atmosphere,Weekend preference
+227,Die-hard,Attends 15+ games,Low,Player stats,Prefers night games
+228,F&B,Casual attendee,High,Social atmosphere,Weekend preference
+229,F&B,Corporate outings,Very High,New food items,Weekend preference
+230,Family,2-3 games/year,High,Safety,Discount sensitive
+231,Die-hard,Attends 15+ games,Low,Player stats,Prefers night games
+232,Die-hard,Opening day + playoffs,Low,Player stats,Reads long-form content
+233,Die-hard,Season ticket holder,Low,Division rivals,Follows trades
+234,Die-hard,Opening day + playoffs,Low,Pitching matchups,Follows trades
+235,F&B,3-5 games/year,High,Theme nights,Responds to promos
+236,Family,Repeat attendee,Low,Giveaways,Early start times
+237,Die-hard,Premium seats buyer,Low,Roster moves,Reads long-form content
+238,F&B,Group outings,Low,Theme nights,Group discounts
+239,Family,2-3 games/year,Very High,Kid-friendly activities,Early start times
+240,Family,First-time attendee,Low,Kid-friendly activities,Discount sensitive
+241,F&B,3-5 games/year,Medium,Social atmosphere,Responds to promos
+242,F&B,Casual attendee,Low,Theme nights,Responds to promos
+243,Die-hard,Opening day + playoffs,Very High,Roster moves,Reads long-form content
+244,Family,Repeat attendee,Very High,Kid-friendly activities,Early start times
+245,Family,First-time attendee,High,Kid-friendly activities,Early start times
+246,Family,Repeat attendee,Low,Giveaways,Early start times
+247,F&B,Corporate outings,High,Theme nights,Group discounts
+248,F&B,Corporate outings,High,New food items,Responds to promos
+249,F&B,Corporate outings,Low,Beer specials,Suite interest
+250,F&B,Casual attendee,High,Beer specials,Group discounts
+251,Die-hard,Opening day + playoffs,Medium,Player stats,Reads long-form content
+252,Die-hard,Attends 15+ games,High,Player stats,Clicks lineup emails
+253,F&B,Corporate outings,Very High,Theme nights,Weekend preference
+254,Family,Buys 4+ tickets,Low,Giveaways,Early start times
+255,Family,2-3 games/year,Very High,Kid-friendly activities,Discount sensitive
+256,F&B,Corporate outings,Medium,Social atmosphere,Group discounts
+257,F&B,Casual attendee,Very High,Beer specials,Suite interest
+258,F&B,Group outings,Medium,Beer specials,Responds to promos
+259,Family,Repeat attendee,Very High,Giveaways,Discount sensitive
+260,Die-hard,Season ticket holder,Low,Division rivals,Reads long-form content
+261,F&B,Group outings,Low,New food items,Suite interest
+262,Die-hard,Season ticket holder,Low,Pitching matchups,Follows trades
+263,Family,Buys 4+ tickets,Very High,Safety,Needs parking info
+264,Die-hard,Season ticket holder,Low,Pitching matchups,Reads long-form content
+265,Family,2-3 games/year,Medium,Ease of access,Needs parking info
+266,F&B,Casual attendee,Low,Theme nights,Responds to promos
+267,Die-hard,Premium seats buyer,High,Roster moves,Prefers night games
+268,F&B,Casual attendee,Medium,Theme nights,Responds to promos
+269,Family,First-time attendee,Medium,Safety,Needs parking info
+270,F&B,3-5 games/year,Medium,Beer specials,Weekend preference
+271,Family,Repeat attendee,High,Kid-friendly activities,Early start times
+272,F&B,Corporate outings,Medium,Theme nights,Group discounts
+273,Die-hard,Premium seats buyer,Medium,Division rivals,Reads long-form content
+274,Family,First-time attendee,Low,Safety,Discount sensitive
+275,F&B,3-5 games/year,Medium,New food items,Group discounts
+276,F&B,Corporate outings,Very High,Social atmosphere,Suite interest
+277,F&B,Group outings,High,Theme nights,Weekend preference
+278,F&B,Corporate outings,Low,Beer specials,Weekend preference
+279,F&B,Casual attendee,Low,Social atmosphere,Group discounts
+280,Die-hard,Attends 15+ games,Low,Pitching matchups,Follows trades
+281,Family,Repeat attendee,High,Ease of access,Prefers Sunday games
+282,Family,Buys 4+ tickets,High,Giveaways,Discount sensitive
+283,Family,2-3 games/year,Low,Safety,Discount sensitive
+284,Family,2-3 games/year,Medium,Safety,Discount sensitive
+285,Die-hard,Premium seats buyer,Low,Roster moves,Follows trades
+286,Die-hard,Premium seats buyer,Low,Roster moves,Clicks lineup emails
+287,Die-hard,Premium seats buyer,High,Pitching matchups,Follows trades
+288,Family,First-time attendee,High,Kid-friendly activities,Early start times
+289,F&B,Casual attendee,Very High,Beer specials,Responds to promos
+290,F&B,Corporate outings,Low,Theme nights,Suite interest
+291,F&B,Corporate outings,High,Theme nights,Weekend preference
+292,Family,Buys 4+ tickets,High,Ease of access,Discount sensitive
+293,Die-hard,Premium seats buyer,High,Division rivals,Prefers night games
+294,Family,Repeat attendee,Medium,Giveaways,Needs parking info
+295,F&B,Casual attendee,Very High,Theme nights,Suite interest
+296,F&B,Group outings,High,Social atmosphere,Weekend preference
+297,Family,Buys 4+ tickets,Very High,Giveaways,Early start times
+298,Die-hard,Opening day + playoffs,Low,Roster moves,Follows trades
+299,Family,2-3 games/year,Low,Safety,Needs parking info
+300,Family,2-3 games/year,Medium,Safety,Needs parking info
+301,Die-hard,Season ticket holder,Low,Roster moves,Prefers night games
+302,Family,First-time attendee,Very High,Kid-friendly activities,Discount sensitive
+303,Family,Repeat attendee,Medium,Ease of access,Needs parking info
+304,Family,First-time attendee,Very High,Kid-friendly activities,Discount sensitive
+305,Die-hard,Opening day + playoffs,Low,Division rivals,Follows trades
+306,Die-hard,Season ticket holder,Medium,Roster moves,Clicks lineup emails
+307,F&B,Group outings,Low,New food items,Weekend preference
+308,F&B,Casual attendee,High,Beer specials,Responds to promos
+309,Family,2-3 games/year,High,Giveaways,Prefers Sunday games
+310,Die-hard,Attends 15+ games,Medium,Division rivals,Clicks lineup emails
+311,Family,Repeat attendee,Very High,Safety,Early start times
+312,F&B,3-5 games/year,Medium,Social atmosphere,Weekend preference
+313,F&B,Corporate outings,Very High,Beer specials,Group discounts
+314,Family,First-time attendee,Medium,Ease of access,Needs parking info
+315,Die-hard,Opening day + playoffs,Very High,Roster moves,Prefers night games
+316,F&B,Corporate outings,Very High,Theme nights,Weekend preference
+317,Family,Repeat attendee,High,Giveaways,Early start times
+318,Family,First-time attendee,Low,Kid-friendly activities,Early start times
+319,Family,2-3 games/year,Medium,Giveaways,Early start times
+320,Die-hard,Attends 15+ games,Low,Roster moves,Reads long-form content
+321,Family,Buys 4+ tickets,Very High,Kid-friendly activities,Discount sensitive
+322,Die-hard,Premium seats buyer,High,Pitching matchups,Follows trades
+323,F&B,Casual attendee,Very High,Beer specials,Responds to promos
+324,F&B,Casual attendee,High,Beer specials,Suite interest
+325,F&B,3-5 games/year,High,Social atmosphere,Weekend preference
+326,F&B,Group outings,Low,Beer specials,Suite interest
+327,Die-hard,Attends 15+ games,Very High,Pitching matchups,Follows trades
+328,Die-hard,Season ticket holder,High,Pitching matchups,Clicks lineup emails
+329,F&B,Group outings,Medium,New food items,Group discounts
+330,Family,2-3 games/year,High,Ease of access,Needs parking info
+331,Die-hard,Season ticket holder,Very High,Pitching matchups,Follows trades
+332,Die-hard,Season ticket holder,Very High,Pitching matchups,Clicks lineup emails
+333,Family,Buys 4+ tickets,High,Safety,Prefers Sunday games
+334,Die-hard,Premium seats buyer,Medium,Roster moves,Follows trades
+335,Family,2-3 games/year,Low,Giveaways,Early start times
+336,Family,Repeat attendee,Low,Ease of access,Prefers Sunday games
+337,Family,Buys 4+ tickets,Low,Ease of access,Early start times
+338,Die-hard,Attends 15+ games,Low,Player stats,Reads long-form content
+339,Die-hard,Attends 15+ games,Very High,Pitching matchups,Reads long-form content
+340,Die-hard,Opening day + playoffs,Low,Division rivals,Prefers night games
+341,F&B,3-5 games/year,High,Beer specials,Suite interest
+342,F&B,Corporate outings,Low,Beer specials,Suite interest
+343,Family,First-time attendee,Very High,Ease of access,Discount sensitive
+344,Family,2-3 games/year,Very High,Kid-friendly activities,Early start times
+345,F&B,Group outings,Very High,Theme nights,Suite interest
+346,Family,Buys 4+ tickets,Low,Safety,Early start times
+347,Die-hard,Premium seats buyer,Very High,Pitching matchups,Prefers night games
+348,Die-hard,Opening day + playoffs,Medium,Division rivals,Follows trades
+349,Die-hard,Opening day + playoffs,Low,Division rivals,Follows trades
+350,Family,Repeat attendee,High,Ease of access,Prefers Sunday games
+351,Family,Repeat attendee,High,Safety,Prefers Sunday games
+352,Die-hard,Opening day + playoffs,Very High,Roster moves,Follows trades
+353,Family,First-time attendee,High,Safety,Prefers Sunday games
+354,F&B,3-5 games/year,High,New food items,Group discounts
+355,Family,Buys 4+ tickets,High,Kid-friendly activities,Prefers Sunday games
+356,Family,First-time attendee,Very High,Ease of access,Prefers Sunday games
+357,Die-hard,Premium seats buyer,Very High,Player stats,Clicks lineup emails
+358,Family,First-time attendee,Very High,Kid-friendly activities,Early start times
+359,Family,2-3 games/year,High,Giveaways,Early start times
+360,F&B,Casual attendee,High,Social atmosphere,Weekend preference
+361,Family,2-3 games/year,Very High,Ease of access,Needs parking info
+362,Die-hard,Attends 15+ games,Medium,Division rivals,Follows trades
+363,Family,First-time attendee,Medium,Giveaways,Needs parking info
+364,Die-hard,Attends 15+ games,Medium,Pitching matchups,Clicks lineup emails
+365,F&B,Casual attendee,Very High,Beer specials,Responds to promos
+366,Family,2-3 games/year,Medium,Kid-friendly activities,Early start times
+367,Die-hard,Opening day + playoffs,Very High,Division rivals,Clicks lineup emails
+368,F&B,Casual attendee,Very High,Beer specials,Suite interest
+369,Die-hard,Premium seats buyer,Very High,Division rivals,Clicks lineup emails
+370,Family,Buys 4+ tickets,Very High,Safety,Discount sensitive
+371,F&B,Group outings,High,Beer specials,Group discounts
+372,Die-hard,Attends 15+ games,Low,Division rivals,Prefers night games
+373,F&B,Corporate outings,Low,New food items,Weekend preference
+374,Die-hard,Opening day + playoffs,Medium,Pitching matchups,Prefers night games
+375,F&B,Casual attendee,High,New food items,Responds to promos
+376,Die-hard,Season ticket holder,Medium,Pitching matchups,Prefers night games
+377,F&B,Group outings,Medium,New food items,Responds to promos
+378,F&B,3-5 games/year,Low,Beer specials,Suite interest
+379,Die-hard,Attends 15+ games,Very High,Division rivals,Follows trades
+380,Die-hard,Opening day + playoffs,Very High,Roster moves,Follows trades
+381,Family,2-3 games/year,Very High,Safety,Prefers Sunday games
+382,Die-hard,Opening day + playoffs,High,Roster moves,Prefers night games
+383,F&B,3-5 games/year,Low,Theme nights,Responds to promos
+384,F&B,3-5 games/year,Medium,Social atmosphere,Responds to promos
+385,Family,Buys 4+ tickets,Medium,Kid-friendly activities,Early start times
+386,F&B,3-5 games/year,Very High,Theme nights,Responds to promos
+387,F&B,Group outings,Very High,Theme nights,Weekend preference
+388,F&B,Corporate outings,High,New food items,Responds to promos
+389,Family,2-3 games/year,Medium,Giveaways,Needs parking info
+390,F&B,Corporate outings,Medium,New food items,Group discounts
+391,F&B,Casual attendee,High,Beer specials,Weekend preference
+392,F&B,Casual attendee,Low,Theme nights,Responds to promos
+393,Die-hard,Season ticket holder,Medium,Division rivals,Clicks lineup emails
+394,F&B,Corporate outings,Very High,Social atmosphere,Suite interest
+395,F&B,Group outings,High,Beer specials,Suite interest
+396,Die-hard,Opening day + playoffs,Low,Player stats,Reads long-form content
+397,Die-hard,Opening day + playoffs,Very High,Division rivals,Follows trades
+398,F&B,Corporate outings,Very High,Theme nights,Group discounts
+399,Die-hard,Season ticket holder,Low,Division rivals,Reads long-form content
+400,Family,First-time attendee,Very High,Safety,Discount sensitive
+401,Family,Repeat attendee,Medium,Giveaways,Prefers Sunday games
+402,Die-hard,Season ticket holder,Low,Player stats,Reads long-form content
+403,Family,2-3 games/year,High,Safety,Discount sensitive
+404,Family,First-time attendee,High,Safety,Prefers Sunday games
+405,Family,Repeat attendee,Low,Ease of access,Discount sensitive
+406,Family,Buys 4+ tickets,Very High,Ease of access,Discount sensitive
+407,F&B,Corporate outings,Low,Theme nights,Group discounts
+408,Family,Buys 4+ tickets,Very High,Giveaways,Needs parking info
+409,Family,First-time attendee,Low,Safety,Early start times
+410,Die-hard,Opening day + playoffs,Low,Roster moves,Follows trades
+411,Die-hard,Premium seats buyer,Very High,Pitching matchups,Reads long-form content
+412,F&B,Corporate outings,Very High,Theme nights,Weekend preference
+413,Family,First-time attendee,Very High,Safety,Prefers Sunday games
+414,Die-hard,Attends 15+ games,Medium,Roster moves,Follows trades
+415,Family,2-3 games/year,Very High,Ease of access,Needs parking info
+416,Family,Repeat attendee,High,Ease of access,Discount sensitive
+417,Family,Buys 4+ tickets,Low,Giveaways,Discount sensitive
+418,Family,2-3 games/year,Low,Kid-friendly activities,Prefers Sunday games
+419,Family,Buys 4+ tickets,Very High,Ease of access,Needs parking info
+420,F&B,3-5 games/year,Medium,Beer specials,Suite interest
+421,Family,2-3 games/year,Low,Ease of access,Early start times
+422,Family,Buys 4+ tickets,High,Ease of access,Prefers Sunday games
+423,Die-hard,Premium seats buyer,High,Pitching matchups,Prefers night games
+424,Family,Repeat attendee,Medium,Safety,Early start times
+425,F&B,Group outings,Very High,Beer specials,Weekend preference
+426,Family,Buys 4+ tickets,Very High,Kid-friendly activities,Prefers Sunday games
+427,Family,Repeat attendee,Very High,Ease of access,Discount sensitive
+428,F&B,Group outings,High,Social atmosphere,Suite interest
+429,F&B,Casual attendee,Medium,New food items,Weekend preference
+430,F&B,Corporate outings,Very High,Social atmosphere,Group discounts
+431,Family,2-3 games/year,High,Kid-friendly activities,Needs parking info
+432,Die-hard,Attends 15+ games,High,Player stats,Clicks lineup emails
+433,F&B,Casual attendee,Very High,Beer specials,Group discounts
+434,Die-hard,Premium seats buyer,Medium,Player stats,Reads long-form content
+435,F&B,Group outings,High,Theme nights,Responds to promos
+436,F&B,3-5 games/year,Very High,Theme nights,Responds to promos
+437,Die-hard,Premium seats buyer,Medium,Pitching matchups,Clicks lineup emails
+438,F&B,Corporate outings,Low,Beer specials,Suite interest
+439,F&B,Group outings,High,Beer specials,Responds to promos
+440,Family,2-3 games/year,Very High,Giveaways,Prefers Sunday games
+441,Die-hard,Premium seats buyer,Medium,Player stats,Clicks lineup emails
+442,Die-hard,Premium seats buyer,High,Division rivals,Follows trades
+443,Family,Buys 4+ tickets,Low,Giveaways,Needs parking info
+444,F&B,3-5 games/year,High,New food items,Suite interest
+445,Die-hard,Season ticket holder,High,Pitching matchups,Clicks lineup emails
+446,Family,2-3 games/year,Low,Ease of access,Prefers Sunday games
+447,Die-hard,Opening day + playoffs,High,Division rivals,Reads long-form content
+448,Die-hard,Premium seats buyer,Medium,Pitching matchups,Reads long-form content
+449,F&B,3-5 games/year,High,Beer specials,Weekend preference
+450,Family,Repeat attendee,Medium,Ease of access,Early start times
+451,F&B,Corporate outings,Low,Theme nights,Suite interest
+452,Die-hard,Premium seats buyer,Medium,Player stats,Reads long-form content
+453,Family,Repeat attendee,Low,Giveaways,Prefers Sunday games
+454,Die-hard,Premium seats buyer,High,Pitching matchups,Follows trades
+455,Die-hard,Opening day + playoffs,High,Pitching matchups,Follows trades
+456,Die-hard,Attends 15+ games,Medium,Pitching matchups,Follows trades
+457,Family,Repeat attendee,Low,Safety,Prefers Sunday games
+458,Die-hard,Opening day + playoffs,Medium,Player stats,Follows trades
+459,Die-hard,Attends 15+ games,High,Player stats,Reads long-form content
+460,Die-hard,Opening day + playoffs,Low,Division rivals,Follows trades
+461,F&B,Group outings,Low,New food items,Weekend preference
+462,F&B,3-5 games/year,High,Beer specials,Group discounts
+463,F&B,Corporate outings,Very High,Theme nights,Suite interest
+464,F&B,Casual attendee,Low,Beer specials,Responds to promos
+465,Die-hard,Attends 15+ games,Medium,Division rivals,Prefers night games
+466,F&B,Corporate outings,High,New food items,Responds to promos
+467,F&B,Corporate outings,Medium,New food items,Suite interest
+468,Die-hard,Opening day + playoffs,High,Pitching matchups,Clicks lineup emails
+469,Die-hard,Season ticket holder,Very High,Pitching matchups,Clicks lineup emails
+470,Family,2-3 games/year,Medium,Kid-friendly activities,Needs parking info
+471,Family,Buys 4+ tickets,High,Safety,Needs parking info
+472,F&B,Group outings,High,Theme nights,Suite interest
+473,Family,2-3 games/year,Very High,Giveaways,Early start times
+474,Die-hard,Season ticket holder,Medium,Roster moves,Follows trades
+475,F&B,Group outings,Low,Social atmosphere,Group discounts
+476,Family,2-3 games/year,Low,Giveaways,Discount sensitive
+477,Die-hard,Opening day + playoffs,Low,Division rivals,Reads long-form content
+478,Die-hard,Opening day + playoffs,Low,Pitching matchups,Prefers night games
+479,Family,Repeat attendee,Very High,Safety,Early start times
+480,Family,2-3 games/year,Medium,Ease of access,Early start times
+481,F&B,3-5 games/year,Very High,Social atmosphere,Responds to promos
+482,Die-hard,Season ticket holder,High,Division rivals,Follows trades
+483,Family,2-3 games/year,High,Kid-friendly activities,Prefers Sunday games
+484,F&B,Casual attendee,Low,New food items,Suite interest
+485,Die-hard,Premium seats buyer,High,Pitching matchups,Prefers night games
+486,Die-hard,Attends 15+ games,Medium,Pitching matchups,Follows trades
+487,F&B,Corporate outings,Very High,Social atmosphere,Weekend preference
+488,Family,2-3 games/year,High,Safety,Prefers Sunday games
+489,Family,Buys 4+ tickets,Medium,Kid-friendly activities,Early start times
+490,Die-hard,Attends 15+ games,Low,Roster moves,Reads long-form content
+491,F&B,3-5 games/year,Very High,Social atmosphere,Responds to promos
+492,Die-hard,Attends 15+ games,Very High,Player stats,Prefers night games
+493,Die-hard,Attends 15+ games,Medium,Pitching matchups,Clicks lineup emails
+494,Family,Repeat attendee,High,Ease of access,Needs parking info
+495,Die-hard,Attends 15+ games,Very High,Roster moves,Follows trades
+496,F&B,Corporate outings,Medium,Theme nights,Weekend preference
+497,Die-hard,Season ticket holder,Medium,Roster moves,Follows trades
+498,Family,Repeat attendee,Medium,Kid-friendly activities,Prefers Sunday games
+499,Die-hard,Opening day + playoffs,Very High,Player stats,Follows trades
+500,F&B,Group outings,High,New food items,Suite interest
+501,Family,Repeat attendee,High,Kid-friendly activities,Early start times
+502,Die-hard,Season ticket holder,Low,Player stats,Prefers night games
+503,F&B,3-5 games/year,Low,Social atmosphere,Responds to promos
+504,Family,Buys 4+ tickets,Very High,Kid-friendly activities,Early start times
+505,F&B,Corporate outings,High,Beer specials,Group discounts
+506,F&B,3-5 games/year,High,Theme nights,Group discounts
+507,Die-hard,Premium seats buyer,High,Pitching matchups,Clicks lineup emails
+508,Die-hard,Premium seats buyer,Medium,Player stats,Prefers night games
+509,F&B,Corporate outings,High,Beer specials,Suite interest
+510,Family,2-3 games/year,High,Giveaways,Needs parking info
+511,Die-hard,Attends 15+ games,Medium,Player stats,Prefers night games
+512,F&B,3-5 games/year,Low,Theme nights,Group discounts
+513,Die-hard,Attends 15+ games,Low,Pitching matchups,Prefers night games
+514,Family,Buys 4+ tickets,Medium,Giveaways,Prefers Sunday games
+515,F&B,Corporate outings,Medium,Beer specials,Group discounts
+516,F&B,Corporate outings,Low,New food items,Weekend preference
+517,F&B,Casual attendee,Medium,Social atmosphere,Group discounts
+518,F&B,Casual attendee,High,New food items,Responds to promos
+519,Family,First-time attendee,Medium,Kid-friendly activities,Prefers Sunday games
+520,F&B,Casual attendee,Low,Beer specials,Suite interest
+521,Die-hard,Season ticket holder,Very High,Division rivals,Follows trades
+522,F&B,Casual attendee,Very High,Social atmosphere,Group discounts
+523,Die-hard,Attends 15+ games,Low,Pitching matchups,Follows trades
+524,Family,First-time attendee,Medium,Ease of access,Discount sensitive
+525,Family,2-3 games/year,Low,Giveaways,Prefers Sunday games
+526,Family,Repeat attendee,High,Safety,Prefers Sunday games
+527,F&B,Corporate outings,High,Theme nights,Responds to promos
+528,F&B,Corporate outings,Medium,Beer specials,Suite interest
+529,F&B,Corporate outings,Low,Theme nights,Responds to promos
+530,Die-hard,Opening day + playoffs,High,Division rivals,Follows trades
+531,Family,Repeat attendee,Low,Ease of access,Needs parking info
+532,F&B,Casual attendee,Low,Theme nights,Suite interest
+533,Family,First-time attendee,Very High,Ease of access,Prefers Sunday games
+534,Die-hard,Attends 15+ games,Medium,Pitching matchups,Prefers night games
+535,Die-hard,Opening day + playoffs,Very High,Division rivals,Follows trades
+536,Family,First-time attendee,High,Safety,Early start times
+537,Die-hard,Season ticket holder,Medium,Roster moves,Reads long-form content
+538,F&B,Casual attendee,Medium,Social atmosphere,Weekend preference
+539,F&B,3-5 games/year,Medium,New food items,Suite interest
+540,Die-hard,Premium seats buyer,Medium,Roster moves,Follows trades
+541,F&B,Casual attendee,Very High,Beer specials,Weekend preference
+542,Die-hard,Season ticket holder,Medium,Roster moves,Reads long-form content
+543,Family,2-3 games/year,High,Safety,Needs parking info
+544,Family,2-3 games/year,Very High,Kid-friendly activities,Discount sensitive
+545,F&B,Casual attendee,Medium,Beer specials,Group discounts
+546,Family,First-time attendee,Very High,Kid-friendly activities,Prefers Sunday games
+547,Die-hard,Season ticket holder,Medium,Division rivals,Clicks lineup emails
+548,Family,First-time attendee,Very High,Kid-friendly activities,Needs parking info
+549,F&B,Group outings,Medium,Theme nights,Suite interest
+550,Family,Repeat attendee,High,Safety,Discount sensitive
+551,Die-hard,Attends 15+ games,Medium,Division rivals,Clicks lineup emails
+552,Family,2-3 games/year,High,Kid-friendly activities,Discount sensitive
+553,Die-hard,Premium seats buyer,Low,Player stats,Follows trades
+554,F&B,Corporate outings,Low,Social atmosphere,Responds to promos
+555,F&B,Corporate outings,Medium,Social atmosphere,Suite interest
+556,Die-hard,Attends 15+ games,Medium,Player stats,Reads long-form content
+557,Family,Repeat attendee,Low,Ease of access,Needs parking info
+558,F&B,Group outings,Low,Theme nights,Responds to promos
+559,Die-hard,Season ticket holder,High,Pitching matchups,Prefers night games
+560,F&B,3-5 games/year,High,New food items,Group discounts
+561,Die-hard,Season ticket holder,Medium,Division rivals,Prefers night games
+562,F&B,Corporate outings,Very High,New food items,Suite interest
+563,F&B,Corporate outings,Low,Social atmosphere,Group discounts
+564,F&B,3-5 games/year,Low,Social atmosphere,Group discounts
+565,F&B,Corporate outings,Medium,New food items,Suite interest
+566,Die-hard,Attends 15+ games,Low,Roster moves,Clicks lineup emails
+567,Family,2-3 games/year,Very High,Ease of access,Early start times
+568,Die-hard,Opening day + playoffs,Very High,Division rivals,Reads long-form content
+569,Family,First-time attendee,Very High,Ease of access,Discount sensitive
+570,Die-hard,Season ticket holder,Medium,Pitching matchups,Follows trades
+571,Family,Repeat attendee,Medium,Ease of access,Needs parking info
+572,Die-hard,Opening day + playoffs,High,Division rivals,Reads long-form content
+573,Die-hard,Season ticket holder,High,Player stats,Reads long-form content
+574,Die-hard,Opening day + playoffs,Medium,Player stats,Clicks lineup emails
+575,F&B,Corporate outings,Low,Theme nights,Suite interest
+576,Family,Repeat attendee,Medium,Safety,Discount sensitive
+577,Family,Buys 4+ tickets,High,Kid-friendly activities,Prefers Sunday games
+578,Family,2-3 games/year,Medium,Safety,Early start times
+579,Family,Buys 4+ tickets,Medium,Giveaways,Early start times
+580,Die-hard,Attends 15+ games,High,Player stats,Prefers night games
+581,F&B,Casual attendee,Low,Theme nights,Weekend preference
+582,F&B,Group outings,Low,Beer specials,Suite interest
+583,F&B,Corporate outings,Very High,New food items,Weekend preference
+584,Family,2-3 games/year,Medium,Giveaways,Discount sensitive
+585,Family,2-3 games/year,Very High,Kid-friendly activities,Early start times
+586,F&B,Corporate outings,Medium,New food items,Group discounts
+587,F&B,3-5 games/year,High,Theme nights,Responds to promos
+588,Family,Repeat attendee,Low,Giveaways,Needs parking info
+589,Die-hard,Attends 15+ games,Medium,Player stats,Clicks lineup emails
+590,F&B,Casual attendee,Low,Beer specials,Responds to promos
+591,Die-hard,Attends 15+ games,Medium,Division rivals,Prefers night games
+592,F&B,Group outings,Medium,Beer specials,Weekend preference
+593,F&B,Casual attendee,Medium,Beer specials,Weekend preference
+594,Family,First-time attendee,Very High,Giveaways,Discount sensitive
+595,Die-hard,Season ticket holder,Very High,Division rivals,Follows trades
+596,F&B,Casual attendee,Low,Social atmosphere,Responds to promos
+597,F&B,Casual attendee,Very High,New food items,Suite interest
+598,F&B,Casual attendee,Very High,Social atmosphere,Weekend preference
+599,Family,Buys 4+ tickets,Medium,Ease of access,Needs parking info
+600,F&B,Casual attendee,Low,Social atmosphere,Weekend preference
+601,Family,First-time attendee,Very High,Ease of access,Early start times
+602,F&B,Corporate outings,High,Social atmosphere,Group discounts
+603,F&B,Casual attendee,Very High,Social atmosphere,Responds to promos
+604,Family,2-3 games/year,Very High,Ease of access,Needs parking info
+605,Family,First-time attendee,Very High,Giveaways,Prefers Sunday games
+606,Family,Repeat attendee,Medium,Ease of access,Needs parking info
+607,F&B,Group outings,Low,Social atmosphere,Suite interest
+608,Die-hard,Premium seats buyer,Low,Roster moves,Reads long-form content
+609,Die-hard,Opening day + playoffs,High,Division rivals,Reads long-form content
+610,Family,Repeat attendee,Very High,Safety,Early start times
+611,Family,First-time attendee,Very High,Giveaways,Prefers Sunday games
+612,F&B,Casual attendee,High,Social atmosphere,Responds to promos
+613,Family,Repeat attendee,Medium,Giveaways,Needs parking info
+614,Die-hard,Season ticket holder,Medium,Division rivals,Follows trades
+615,Die-hard,Premium seats buyer,Very High,Division rivals,Reads long-form content
+616,F&B,Group outings,High,Social atmosphere,Responds to promos
+617,Die-hard,Attends 15+ games,High,Division rivals,Reads long-form content
+618,Family,First-time attendee,Low,Safety,Prefers Sunday games
+619,Die-hard,Attends 15+ games,Medium,Roster moves,Prefers night games
+620,Family,First-time attendee,Medium,Kid-friendly activities,Needs parking info
+621,F&B,Group outings,Medium,Social atmosphere,Suite interest
+622,F&B,3-5 games/year,Low,Beer specials,Responds to promos
+623,F&B,Casual attendee,Low,New food items,Group discounts
+624,F&B,Casual attendee,High,Social atmosphere,Weekend preference
+625,Family,First-time attendee,High,Kid-friendly activities,Early start times
+626,Die-hard,Attends 15+ games,Medium,Player stats,Reads long-form content
+627,F&B,Corporate outings,Very High,Beer specials,Suite interest
+628,Die-hard,Opening day + playoffs,Very High,Pitching matchups,Reads long-form content
+629,F&B,3-5 games/year,Medium,Beer specials,Responds to promos
+630,F&B,Group outings,Low,New food items,Responds to promos
+631,Die-hard,Attends 15+ games,Very High,Division rivals,Prefers night games
+632,F&B,Corporate outings,Medium,Theme nights,Weekend preference
+633,Family,2-3 games/year,Very High,Safety,Early start times
+634,Die-hard,Attends 15+ games,Medium,Roster moves,Reads long-form content
+635,Family,Repeat attendee,Very High,Safety,Early start times
+636,Die-hard,Opening day + playoffs,Very High,Roster moves,Prefers night games
+637,Die-hard,Attends 15+ games,High,Roster moves,Follows trades
+638,Family,2-3 games/year,High,Safety,Discount sensitive
+639,Family,First-time attendee,Very High,Ease of access,Discount sensitive
+640,Die-hard,Season ticket holder,Very High,Pitching matchups,Follows trades
+641,F&B,Corporate outings,Very High,New food items,Group discounts
+642,F&B,3-5 games/year,Very High,New food items,Group discounts
+643,F&B,Group outings,Very High,New food items,Group discounts
+644,Die-hard,Attends 15+ games,Low,Division rivals,Prefers night games
+645,Family,First-time attendee,Medium,Giveaways,Needs parking info
+646,Family,Buys 4+ tickets,Very High,Safety,Needs parking info
+647,Die-hard,Premium seats buyer,Very High,Pitching matchups,Prefers night games
+648,F&B,Group outings,Low,Social atmosphere,Group discounts
+649,F&B,Casual attendee,High,Theme nights,Weekend preference
+650,Family,First-time attendee,Low,Safety,Needs parking info
+651,Die-hard,Season ticket holder,Low,Division rivals,Prefers night games
+652,F&B,Corporate outings,Low,Beer specials,Responds to promos
+653,F&B,Corporate outings,Low,Beer specials,Suite interest
+654,Family,First-time attendee,Medium,Safety,Needs parking info
+655,F&B,Corporate outings,High,Beer specials,Responds to promos
+656,Family,First-time attendee,High,Giveaways,Early start times
+657,Family,First-time attendee,High,Safety,Needs parking info
+658,Die-hard,Season ticket holder,Medium,Player stats,Follows trades
+659,F&B,Group outings,Very High,New food items,Responds to promos
+660,F&B,Casual attendee,High,New food items,Group discounts
+661,Die-hard,Premium seats buyer,Low,Pitching matchups,Reads long-form content
+662,Die-hard,Opening day + playoffs,Medium,Roster moves,Prefers night games
+663,Die-hard,Attends 15+ games,Medium,Division rivals,Reads long-form content
+664,F&B,Group outings,High,Theme nights,Responds to promos
+665,F&B,Casual attendee,High,New food items,Responds to promos
+666,Die-hard,Season ticket holder,Medium,Division rivals,Clicks lineup emails
+667,Family,Buys 4+ tickets,Medium,Safety,Needs parking info
+668,Die-hard,Opening day + playoffs,Very High,Roster moves,Clicks lineup emails
+669,Die-hard,Opening day + playoffs,High,Division rivals,Prefers night games
+670,F&B,Group outings,Low,Beer specials,Suite interest
+671,F&B,Group outings,Very High,Theme nights,Responds to promos
+672,Family,First-time attendee,High,Safety,Discount sensitive
+673,Family,First-time attendee,Medium,Safety,Early start times
+674,F&B,Corporate outings,Very High,Social atmosphere,Weekend preference
+675,Die-hard,Season ticket holder,Very High,Roster moves,Clicks lineup emails
+676,Family,Buys 4+ tickets,Medium,Ease of access,Early start times
+677,Die-hard,Opening day + playoffs,Medium,Pitching matchups,Clicks lineup emails
+678,Family,Repeat attendee,High,Giveaways,Early start times
+679,Family,2-3 games/year,Medium,Safety,Prefers Sunday games
+680,F&B,Casual attendee,High,Social atmosphere,Weekend preference
+681,Die-hard,Premium seats buyer,Medium,Roster moves,Prefers night games
+682,Die-hard,Opening day + playoffs,Very High,Pitching matchups,Follows trades
+683,Family,Buys 4+ tickets,Low,Giveaways,Prefers Sunday games
+684,Family,Buys 4+ tickets,High,Giveaways,Discount sensitive
+685,Family,2-3 games/year,Low,Kid-friendly activities,Discount sensitive
+686,F&B,Group outings,Low,Theme nights,Responds to promos
+687,F&B,Corporate outings,Low,Social atmosphere,Weekend preference
+688,Die-hard,Premium seats buyer,Low,Player stats,Clicks lineup emails
+689,Family,2-3 games/year,Low,Safety,Prefers Sunday games
+690,Family,Repeat attendee,Medium,Giveaways,Needs parking info
+691,F&B,Casual attendee,Very High,New food items,Group discounts
+692,Die-hard,Opening day + playoffs,Medium,Roster moves,Follows trades
+693,Die-hard,Premium seats buyer,Medium,Pitching matchups,Prefers night games
+694,Family,First-time attendee,High,Kid-friendly activities,Early start times
+695,F&B,3-5 games/year,Very High,Theme nights,Responds to promos
+696,F&B,Corporate outings,High,Theme nights,Responds to promos
+697,Family,Repeat attendee,Medium,Kid-friendly activities,Prefers Sunday games
+698,Family,2-3 games/year,Low,Kid-friendly activities,Prefers Sunday games
+699,F&B,Group outings,Very High,Beer specials,Weekend preference
+700,F&B,Casual attendee,Low,Theme nights,Group discounts
+701,Family,2-3 games/year,High,Safety,Early start times
+702,F&B,Casual attendee,High,Social atmosphere,Group discounts
+703,Family,Buys 4+ tickets,Low,Ease of access,Discount sensitive
+704,Die-hard,Opening day + playoffs,High,Roster moves,Reads long-form content
+705,Die-hard,Opening day + playoffs,Very High,Roster moves,Clicks lineup emails
+706,Family,2-3 games/year,Very High,Ease of access,Early start times
+707,Family,Repeat attendee,Low,Giveaways,Early start times
+708,Die-hard,Premium seats buyer,Low,Division rivals,Follows trades
+709,Family,2-3 games/year,High,Ease of access,Discount sensitive
+710,Die-hard,Premium seats buyer,Medium,Pitching matchups,Follows trades
+711,F&B,Group outings,Low,Beer specials,Group discounts
+712,Family,First-time attendee,Medium,Kid-friendly activities,Needs parking info
+713,F&B,Group outings,Low,New food items,Weekend preference
+714,F&B,Corporate outings,Very High,New food items,Weekend preference
+715,Family,Buys 4+ tickets,High,Ease of access,Discount sensitive
+716,F&B,Group outings,Medium,Social atmosphere,Suite interest
+717,Family,Buys 4+ tickets,Very High,Safety,Needs parking info
+718,Die-hard,Opening day + playoffs,Very High,Division rivals,Clicks lineup emails
+719,Family,2-3 games/year,Low,Kid-friendly activities,Discount sensitive
+720,Die-hard,Premium seats buyer,Medium,Roster moves,Reads long-form content
+721,Family,First-time attendee,Medium,Giveaways,Early start times
+722,Die-hard,Opening day + playoffs,Very High,Division rivals,Follows trades
+723,Family,Repeat attendee,Very High,Ease of access,Needs parking info
+724,Family,Repeat attendee,Low,Kid-friendly activities,Needs parking info
+725,F&B,Corporate outings,Low,Beer specials,Group discounts
+726,Family,Buys 4+ tickets,High,Ease of access,Discount sensitive
+727,F&B,3-5 games/year,High,Theme nights,Suite interest
+728,Die-hard,Season ticket holder,Medium,Division rivals,Clicks lineup emails
+729,F&B,3-5 games/year,Very High,Social atmosphere,Group discounts
+730,F&B,Casual attendee,Medium,Beer specials,Suite interest
+731,Family,Repeat attendee,Medium,Kid-friendly activities,Early start times
+732,F&B,3-5 games/year,Low,New food items,Responds to promos
+733,F&B,Group outings,Low,Theme nights,Responds to promos
+734,F&B,Casual attendee,Medium,New food items,Responds to promos
+735,Family,2-3 games/year,Low,Ease of access,Discount sensitive
+736,F&B,Corporate outings,Medium,Beer specials,Suite interest
+737,F&B,3-5 games/year,Very High,Theme nights,Responds to promos
+738,Die-hard,Opening day + playoffs,Medium,Roster moves,Prefers night games
+739,Die-hard,Attends 15+ games,Very High,Roster moves,Clicks lineup emails
+740,Die-hard,Opening day + playoffs,High,Pitching matchups,Prefers night games
+741,F&B,Corporate outings,Very High,Theme nights,Group discounts
+742,Die-hard,Premium seats buyer,Low,Division rivals,Prefers night games
+743,Family,First-time attendee,Medium,Kid-friendly activities,Discount sensitive
+744,Die-hard,Season ticket holder,High,Pitching matchups,Prefers night games
+745,Family,Buys 4+ tickets,Low,Giveaways,Prefers Sunday games
+746,Die-hard,Attends 15+ games,Medium,Pitching matchups,Follows trades
+747,F&B,Group outings,Low,Theme nights,Suite interest
+748,Die-hard,Opening day + playoffs,High,Division rivals,Follows trades
+749,Die-hard,Season ticket holder,High,Division rivals,Prefers night games
+750,Family,Buys 4+ tickets,Low,Safety,Early start times
+751,Family,First-time attendee,Medium,Ease of access,Early start times
+752,Family,Buys 4+ tickets,Very High,Kid-friendly activities,Discount sensitive
+753,Family,First-time attendee,High,Giveaways,Early start times
+754,F&B,Group outings,Low,Beer specials,Group discounts
+755,Die-hard,Season ticket holder,Medium,Player stats,Prefers night games
+756,Die-hard,Season ticket holder,Medium,Pitching matchups,Follows trades
+757,Die-hard,Attends 15+ games,High,Pitching matchups,Clicks lineup emails
+758,Family,2-3 games/year,Low,Kid-friendly activities,Needs parking info
+759,Die-hard,Season ticket holder,Very High,Pitching matchups,Clicks lineup emails
+760,Die-hard,Opening day + playoffs,Low,Division rivals,Follows trades
+761,Die-hard,Opening day + playoffs,Medium,Division rivals,Clicks lineup emails
+762,Family,Repeat attendee,Low,Giveaways,Prefers Sunday games
+763,Family,Repeat attendee,High,Giveaways,Early start times
+764,Die-hard,Premium seats buyer,Medium,Roster moves,Prefers night games
+765,Family,Buys 4+ tickets,Low,Safety,Discount sensitive
+766,Die-hard,Season ticket holder,High,Pitching matchups,Follows trades
+767,F&B,Corporate outings,High,Beer specials,Suite interest
+768,Family,2-3 games/year,Very High,Safety,Prefers Sunday games
+769,Die-hard,Season ticket holder,High,Pitching matchups,Reads long-form content
+770,Die-hard,Season ticket holder,Very High,Division rivals,Prefers night games
+771,Family,First-time attendee,Very High,Kid-friendly activities,Prefers Sunday games
+772,F&B,3-5 games/year,Low,New food items,Weekend preference
+773,F&B,Casual attendee,Medium,Theme nights,Suite interest
+774,Die-hard,Premium seats buyer,Medium,Roster moves,Follows trades
+775,F&B,Corporate outings,Very High,Beer specials,Group discounts
+776,F&B,Corporate outings,Low,New food items,Suite interest
+777,Die-hard,Season ticket holder,Very High,Roster moves,Clicks lineup emails
+778,F&B,Casual attendee,Low,Theme nights,Group discounts
+779,Family,2-3 games/year,High,Ease of access,Prefers Sunday games
+780,Die-hard,Opening day + playoffs,Very High,Division rivals,Reads long-form content
+781,Die-hard,Premium seats buyer,High,Division rivals,Follows trades
+782,F&B,Corporate outings,Medium,Social atmosphere,Group discounts
+783,Family,Repeat attendee,Very High,Giveaways,Needs parking info
+784,Family,First-time attendee,Very High,Giveaways,Discount sensitive
+785,Family,Buys 4+ tickets,Medium,Ease of access,Discount sensitive
+786,F&B,Casual attendee,Medium,New food items,Weekend preference
+787,Family,2-3 games/year,High,Safety,Needs parking info
+788,F&B,Group outings,Low,Beer specials,Group discounts
+789,Die-hard,Attends 15+ games,Very High,Division rivals,Clicks lineup emails
+790,Family,Buys 4+ tickets,Medium,Kid-friendly activities,Early start times
+791,Family,Repeat attendee,High,Giveaways,Prefers Sunday games
+792,F&B,3-5 games/year,High,Theme nights,Weekend preference
+793,Die-hard,Season ticket holder,High,Player stats,Reads long-form content
+794,Family,Repeat attendee,Medium,Safety,Needs parking info
+795,Family,Repeat attendee,High,Safety,Prefers Sunday games
+796,Die-hard,Season ticket holder,Low,Player stats,Clicks lineup emails
+797,F&B,3-5 games/year,Very High,Beer specials,Responds to promos
+798,Die-hard,Attends 15+ games,High,Division rivals,Reads long-form content
+799,F&B,Corporate outings,Low,Social atmosphere,Suite interest
+800,Family,2-3 games/year,Medium,Kid-friendly activities,Needs parking info
+801,Die-hard,Attends 15+ games,Medium,Division rivals,Follows trades
+802,Die-hard,Season ticket holder,Low,Pitching matchups,Prefers night games
+803,Family,Buys 4+ tickets,Low,Ease of access,Discount sensitive
+804,Die-hard,Opening day + playoffs,Very High,Pitching matchups,Clicks lineup emails
+805,Family,Repeat attendee,Very High,Safety,Early start times
+806,Family,2-3 games/year,Low,Kid-friendly activities,Early start times
+807,Family,First-time attendee,Medium,Giveaways,Needs parking info
+808,Die-hard,Season ticket holder,Low,Roster moves,Reads long-form content
+809,Die-hard,Premium seats buyer,Low,Pitching matchups,Reads long-form content
+810,Family,2-3 games/year,Very High,Kid-friendly activities,Prefers Sunday games
+811,Die-hard,Opening day + playoffs,High,Pitching matchups,Reads long-form content
+812,Die-hard,Season ticket holder,Very High,Division rivals,Follows trades
+813,Die-hard,Opening day + playoffs,High,Player stats,Clicks lineup emails
+814,Family,First-time attendee,Medium,Kid-friendly activities,Early start times
+815,F&B,Group outings,High,Theme nights,Group discounts
+816,F&B,Casual attendee,Low,New food items,Responds to promos
+817,F&B,3-5 games/year,Low,Theme nights,Responds to promos
+818,Family,2-3 games/year,Medium,Safety,Early start times
+819,Family,First-time attendee,Low,Ease of access,Early start times
+820,F&B,Group outings,Low,Theme nights,Weekend preference
+821,Die-hard,Opening day + playoffs,Medium,Player stats,Reads long-form content
+822,F&B,Casual attendee,High,Theme nights,Suite interest
+823,Family,2-3 games/year,Medium,Giveaways,Early start times
+824,F&B,Corporate outings,Very High,Theme nights,Suite interest
+825,Die-hard,Opening day + playoffs,Very High,Player stats,Clicks lineup emails
+826,Family,Buys 4+ tickets,Very High,Safety,Discount sensitive
+827,Family,First-time attendee,Very High,Safety,Needs parking info
+828,Die-hard,Season ticket holder,High,Pitching matchups,Clicks lineup emails
+829,Die-hard,Season ticket holder,Very High,Division rivals,Follows trades
+830,Die-hard,Season ticket holder,Very High,Player stats,Prefers night games
+831,Family,2-3 games/year,High,Ease of access,Early start times
+832,F&B,Corporate outings,Low,Beer specials,Group discounts
+833,F&B,Corporate outings,Very High,Beer specials,Weekend preference
+834,Family,Buys 4+ tickets,Low,Safety,Prefers Sunday games
+835,Die-hard,Premium seats buyer,Low,Roster moves,Prefers night games
+836,F&B,Corporate outings,Medium,Beer specials,Responds to promos
+837,F&B,Corporate outings,Very High,Theme nights,Weekend preference
+838,Die-hard,Attends 15+ games,Medium,Division rivals,Prefers night games
+839,Die-hard,Premium seats buyer,High,Player stats,Follows trades
+840,F&B,3-5 games/year,Low,Social atmosphere,Group discounts
+841,Family,Repeat attendee,High,Kid-friendly activities,Needs parking info
+842,Die-hard,Opening day + playoffs,High,Division rivals,Follows trades
+843,Family,Buys 4+ tickets,High,Giveaways,Needs parking info
+844,Family,Repeat attendee,High,Ease of access,Early start times
+845,F&B,Casual attendee,Low,Beer specials,Suite interest
+846,Family,First-time attendee,Medium,Kid-friendly activities,Discount sensitive
+847,Family,Buys 4+ tickets,Very High,Kid-friendly activities,Needs parking info
+848,Die-hard,Premium seats buyer,Medium,Pitching matchups,Follows trades
+849,Die-hard,Premium seats buyer,Medium,Division rivals,Follows trades
+850,Die-hard,Season ticket holder,High,Division rivals,Prefers night games
+851,Die-hard,Season ticket holder,Very High,Roster moves,Clicks lineup emails
+852,F&B,Group outings,Very High,New food items,Group discounts
+853,Die-hard,Season ticket holder,High,Pitching matchups,Clicks lineup emails
+854,Family,First-time attendee,Very High,Kid-friendly activities,Prefers Sunday games
+855,Die-hard,Premium seats buyer,High,Roster moves,Follows trades
+856,F&B,Group outings,Low,New food items,Weekend preference
+857,Die-hard,Opening day + playoffs,Medium,Pitching matchups,Follows trades
+858,F&B,Corporate outings,High,Social atmosphere,Suite interest
+859,F&B,Group outings,High,Theme nights,Responds to promos
+860,F&B,Casual attendee,Very High,Theme nights,Responds to promos
+861,F&B,Corporate outings,High,Beer specials,Group discounts
+862,Family,First-time attendee,Low,Giveaways,Prefers Sunday games
+863,F&B,Casual attendee,Low,Social atmosphere,Group discounts
+864,F&B,Corporate outings,Very High,Social atmosphere,Weekend preference
+865,F&B,Corporate outings,Medium,Social atmosphere,Suite interest
+866,Family,Repeat attendee,High,Safety,Prefers Sunday games
+867,Family,2-3 games/year,High,Safety,Prefers Sunday games
+868,Die-hard,Attends 15+ games,High,Player stats,Clicks lineup emails
+869,Family,2-3 games/year,Medium,Giveaways,Needs parking info
+870,F&B,Corporate outings,Very High,Beer specials,Suite interest
+871,Die-hard,Premium seats buyer,Low,Pitching matchups,Prefers night games
+872,F&B,Casual attendee,High,New food items,Suite interest
+873,F&B,Corporate outings,High,New food items,Responds to promos
+874,Die-hard,Opening day + playoffs,Very High,Player stats,Prefers night games
+875,F&B,Corporate outings,High,Beer specials,Suite interest
+876,F&B,Casual attendee,High,Social atmosphere,Responds to promos
+877,F&B,Corporate outings,Low,New food items,Responds to promos
+878,Family,2-3 games/year,Medium,Giveaways,Discount sensitive
+879,F&B,Corporate outings,Very High,Theme nights,Weekend preference
+880,F&B,Corporate outings,Very High,Social atmosphere,Suite interest
+881,Family,2-3 games/year,Low,Ease of access,Early start times
+882,Die-hard,Attends 15+ games,High,Player stats,Clicks lineup emails
+883,Die-hard,Premium seats buyer,Very High,Pitching matchups,Prefers night games
+884,F&B,Group outings,High,New food items,Responds to promos
+885,F&B,Group outings,Low,New food items,Weekend preference
+886,Die-hard,Premium seats buyer,Very High,Player stats,Prefers night games
+887,Family,First-time attendee,Medium,Safety,Discount sensitive
+888,Family,Repeat attendee,Medium,Safety,Prefers Sunday games
+889,Die-hard,Premium seats buyer,High,Division rivals,Prefers night games
+890,F&B,Casual attendee,High,Social atmosphere,Responds to promos
+891,F&B,Casual attendee,Low,Beer specials,Responds to promos
+892,Die-hard,Opening day + playoffs,High,Division rivals,Follows trades
+893,Family,2-3 games/year,High,Giveaways,Early start times
+894,Die-hard,Opening day + playoffs,Low,Pitching matchups,Clicks lineup emails
+895,Die-hard,Opening day + playoffs,Very High,Player stats,Prefers night games
+896,F&B,3-5 games/year,High,Theme nights,Responds to promos
+897,Die-hard,Premium seats buyer,Very High,Roster moves,Reads long-form content
+898,F&B,Casual attendee,Medium,New food items,Responds to promos
+899,Family,First-time attendee,High,Giveaways,Discount sensitive
+900,Family,First-time attendee,Medium,Giveaways,Early start times
+901,Die-hard,Season ticket holder,Low,Pitching matchups,Prefers night games
+902,Die-hard,Premium seats buyer,Medium,Division rivals,Reads long-form content
+903,Family,Repeat attendee,Low,Ease of access,Needs parking info
+904,Die-hard,Opening day + playoffs,High,Roster moves,Reads long-form content
+905,F&B,Casual attendee,Very High,Beer specials,Responds to promos
+906,F&B,3-5 games/year,Low,New food items,Group discounts
+907,Die-hard,Attends 15+ games,Low,Division rivals,Prefers night games
+908,Die-hard,Opening day + playoffs,Low,Roster moves,Reads long-form content
+909,F&B,Casual attendee,Low,New food items,Suite interest
+910,Die-hard,Premium seats buyer,Very High,Division rivals,Clicks lineup emails
+911,F&B,Corporate outings,Medium,Theme nights,Responds to promos
+912,Family,Repeat attendee,High,Giveaways,Needs parking info
+913,Family,Repeat attendee,Medium,Kid-friendly activities,Needs parking info
+914,Family,2-3 games/year,Low,Giveaways,Needs parking info
+915,Family,First-time attendee,Low,Ease of access,Discount sensitive
+916,F&B,Casual attendee,High,Theme nights,Suite interest
+917,F&B,Corporate outings,Medium,Social atmosphere,Suite interest
+918,Die-hard,Premium seats buyer,Medium,Roster moves,Reads long-form content
+919,Family,First-time attendee,Very High,Safety,Prefers Sunday games
+920,Die-hard,Premium seats buyer,High,Roster moves,Follows trades
+921,Family,Repeat attendee,Medium,Kid-friendly activities,Early start times
+922,F&B,Casual attendee,Very High,Theme nights,Responds to promos
+923,Die-hard,Opening day + playoffs,Low,Player stats,Follows trades
+924,Family,First-time attendee,Very High,Kid-friendly activities,Discount sensitive
+925,Die-hard,Season ticket holder,Low,Pitching matchups,Reads long-form content
+926,Die-hard,Attends 15+ games,Low,Player stats,Reads long-form content
+927,F&B,Corporate outings,Very High,Beer specials,Weekend preference
+928,Family,Buys 4+ tickets,Very High,Kid-friendly activities,Needs parking info
+929,Family,First-time attendee,Low,Safety,Prefers Sunday games
+930,Family,First-time attendee,Very High,Kid-friendly activities,Discount sensitive
+931,Family,Repeat attendee,Very High,Ease of access,Prefers Sunday games
+932,Die-hard,Premium seats buyer,Very High,Roster moves,Follows trades
+933,F&B,3-5 games/year,Low,Theme nights,Responds to promos
+934,Family,First-time attendee,Very High,Kid-friendly activities,Needs parking info
+935,F&B,Casual attendee,High,New food items,Suite interest
+936,Family,Repeat attendee,High,Giveaways,Prefers Sunday games
+937,Family,2-3 games/year,Very High,Safety,Prefers Sunday games
+938,Die-hard,Opening day + playoffs,Medium,Player stats,Clicks lineup emails
+939,Family,Repeat attendee,High,Kid-friendly activities,Early start times
+940,Die-hard,Attends 15+ games,Low,Pitching matchups,Follows trades
+941,Family,2-3 games/year,Low,Kid-friendly activities,Needs parking info
+942,Family,Repeat attendee,Medium,Ease of access,Early start times
+943,Die-hard,Season ticket holder,High,Roster moves,Prefers night games
+944,Die-hard,Attends 15+ games,Medium,Pitching matchups,Prefers night games
+945,Die-hard,Premium seats buyer,High,Pitching matchups,Follows trades
+946,Family,Buys 4+ tickets,High,Safety,Early start times
+947,Family,Repeat attendee,Very High,Safety,Needs parking info
+948,Family,Repeat attendee,Very High,Kid-friendly activities,Needs parking info
+949,Family,2-3 games/year,High,Ease of access,Early start times
+950,Die-hard,Premium seats buyer,High,Division rivals,Prefers night games
+951,F&B,Corporate outings,Medium,New food items,Weekend preference
+952,F&B,Group outings,High,Beer specials,Responds to promos
+953,F&B,3-5 games/year,High,Social atmosphere,Suite interest
+954,Family,Buys 4+ tickets,Medium,Giveaways,Prefers Sunday games
+955,Family,Repeat attendee,High,Ease of access,Needs parking info
+956,Family,Buys 4+ tickets,Medium,Giveaways,Prefers Sunday games
+957,Family,Repeat attendee,High,Giveaways,Early start times
+958,Die-hard,Season ticket holder,Very High,Pitching matchups,Follows trades
+959,Family,Buys 4+ tickets,Low,Giveaways,Early start times
+960,Die-hard,Season ticket holder,High,Player stats,Reads long-form content
+961,F&B,Corporate outings,Very High,Theme nights,Weekend preference
+962,Die-hard,Season ticket holder,Medium,Player stats,Follows trades
+963,Die-hard,Attends 15+ games,Low,Pitching matchups,Follows trades
+964,F&B,Group outings,Very High,New food items,Weekend preference
+965,Die-hard,Season ticket holder,High,Roster moves,Clicks lineup emails
+966,F&B,Corporate outings,Medium,Social atmosphere,Group discounts
+967,Die-hard,Season ticket holder,Very High,Player stats,Reads long-form content
+968,Die-hard,Attends 15+ games,High,Roster moves,Reads long-form content
+969,Family,2-3 games/year,Medium,Safety,Discount sensitive
+970,F&B,Group outings,High,Social atmosphere,Group discounts
+971,Die-hard,Opening day + playoffs,Medium,Player stats,Reads long-form content
+972,F&B,3-5 games/year,High,Beer specials,Group discounts
+973,F&B,Casual attendee,Low,Beer specials,Suite interest
+974,Family,Repeat attendee,Very High,Safety,Early start times
+975,Family,Repeat attendee,Very High,Ease of access,Early start times
+976,Family,First-time attendee,High,Kid-friendly activities,Early start times
+977,F&B,Group outings,Low,Beer specials,Weekend preference
+978,F&B,3-5 games/year,Medium,New food items,Group discounts
+979,Die-hard,Season ticket holder,Very High,Pitching matchups,Prefers night games
+980,Die-hard,Season ticket holder,High,Division rivals,Prefers night games
+981,Family,Repeat attendee,Low,Kid-friendly activities,Discount sensitive
+982,Family,Repeat attendee,Very High,Ease of access,Prefers Sunday games
+983,F&B,Casual attendee,Medium,Theme nights,Suite interest
+984,Family,2-3 games/year,Low,Kid-friendly activities,Discount sensitive
+985,Family,Repeat attendee,Medium,Safety,Needs parking info
+986,Die-hard,Season ticket holder,High,Division rivals,Reads long-form content
+987,Die-hard,Opening day + playoffs,High,Division rivals,Clicks lineup emails
+988,Family,Repeat attendee,High,Ease of access,Needs parking info
+989,Die-hard,Attends 15+ games,High,Player stats,Clicks lineup emails
+990,Die-hard,Opening day + playoffs,Low,Division rivals,Follows trades
+991,Die-hard,Opening day + playoffs,Low,Player stats,Clicks lineup emails
+992,Die-hard,Opening day + playoffs,Very High,Player stats,Prefers night games
+993,Die-hard,Season ticket holder,Low,Pitching matchups,Reads long-form content
+994,Die-hard,Attends 15+ games,Very High,Roster moves,Follows trades
+995,Die-hard,Premium seats buyer,Low,Pitching matchups,Follows trades
+996,Family,Buys 4+ tickets,Medium,Ease of access,Early start times
+997,Family,2-3 games/year,Medium,Giveaways,Early start times
+998,F&B,Corporate outings,Very High,Beer specials,Weekend preference
+999,Family,First-time attendee,Very High,Giveaways,Discount sensitive
+1000,F&B,Corporate outings,Very High,Beer specials,Group discounts
