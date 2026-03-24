@@ -75,3 +75,5 @@ When adding new packages:
 ## License
 
 [Add license information if applicable]
+POC for Brewers Principle AI Architect Role
+>>>>>>> 286242d45d12cccb1c0c3d564f48c3131a76b06e
