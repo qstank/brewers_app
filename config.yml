@@ -1,0 +1,22 @@
+# Ollama Configuration
+ollama:
+  # Ollama API base URL
+  base_url: "http://localhost:11434"
+  
+  # Model to use (options: mistral, neural-chat, llama2, etc.)
+  model: "mistral"
+  
+  # Request timeout in seconds
+  timeout: 60
+
+# App Configuration
+app:
+  # Page title
+  page_title: "Brewers Tailored Marketing Engine POC"
+  
+  # Layout (wide or centered)
+  layout: "wide"
+  
+  # Data file paths
+  schedule_csv: "data/GameTicketPromotionPrice.csv"
+  fan_csv: "data/brewers mock fan data.csv"

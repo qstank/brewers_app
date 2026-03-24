@@ -1,79 +1,114 @@
 # Brewers Tailored Marketing Engine POC
 
-A Streamlit-based proof-of-concept application for the Milwaukee Brewers that personalizes ticket promotions and marketing messaging based on fan segments.
+A Streamlit-based proof-of-concept application for the Milwaukee Brewers that personalizes ticket promotions and marketing messaging based on fan segments, with optional AI-generated creative via Ollama.
 
 ## Features
 
 - **Fan Segmentation**: Categorizes fans into Die-hard, F&B, Family, and Social segments
 - **Tailored Marketing**: Generates segment-specific messaging, tone, and creative guidance
+- **AI Creative Generation**: Uses Ollama (local LLM) to generate marketing copy alongside rule-based output
 - **Dynamic Pricing**: Integrates game schedule and promotional pricing data
+- **CRM Export**: Builds CRM-ready export previews per segment
 - **Interactive UI**: Built with Streamlit for easy exploration and testing
 
 ## Project Structure
 
 ```
 brewers_app/
-├── brewers_poc_app.py                      # Main Streamlit application
-├── requirements_brewers_poc.txt            # Python dependencies
-├── GameTicketPromotionPrice.csv            # Game schedule and pricing data
-├── brewers mock fan data.csv               # Sample fan data (required at runtime)
-├── README.md                               # This file
-└── .gitignore                              # Git ignore rules
+├── brewers_poc_app.py                 # Main Streamlit application
+├── generate_creative.py              # Batch creative generation script
+├── ollama_service.py                  # Ollama API client
+├── config.yml                         # App and Ollama configuration
+├── requirements_brewers_poc.txt       # Python dependencies
+├── data/
+│   ├── GameTicketPromotionPrice.csv   # Game schedule and pricing data
+│   └── brewers mock fan data.csv     # Sample fan data
+├── results/                           # Generated creative JSON files
+└── README.md
 ```
 
 ## Setup
 
 ### Prerequisites
 
-- Python 3.8+
-- pip or conda package manager
+- **Python 3.10+**
+- **Ollama** (for AI creative generation): Download from [ollama.com](https://ollama.com)
 
-### Installation
+### 1. Create a Virtual Environment
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd brewers_app
+```powershell
+python -m venv venv
+```
+
+### 2. Set PowerShell Execution Policy (Windows only, one-time)
+
+If you get a script execution error when activating the venv:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+### 3. Activate the Virtual Environment
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Your terminal prompt should now start with `(venv)`.
+
+### 4. Install Dependencies
+
+```powershell
+pip install -r requirements_brewers_poc.txt
+```
+
+### 5. Set Up Ollama (for AI Creative Generation)
+
+1. Install Ollama from [ollama.com](https://ollama.com)
+2. Pull the mistral model:
+   ```powershell
+   ollama pull mistral
+   ```
+3. Start the Ollama service:
+   ```powershell
+   ollama serve
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements_brewers_poc.txt
-   ```
-
-3. Ensure required data files are in place:
-   - `GameTicketPromotionPrice.csv`
-   - `brewers mock fan data.csv`
+You can change the model in `config.yml` under `ollama.model`.
 
 ## Running the Application
 
-```bash
-streamlit run brewers_poc_app.py
+Make sure your venv is activated and Ollama is running, then:
+
+```powershell
+.\venv\Scripts\streamlit.exe run brewers_poc_app.py
 ```
 
-The application will open in your default browser at `http://localhost:8501`.
+The app will open in your browser at `http://localhost:8501`.
 
-## Development
+### Using the App
 
-### Dependencies
+1. Select a **target segment** and **game** from the sidebar
+2. Click **"Generate AI Creative"** to produce LLM-generated marketing copy
+3. View rule-based and AI-generated creative side by side
+4. Preview and export CRM-ready data
 
-- **streamlit**: Web app framework
-- **pandas**: Data manipulation and analysis
+## Configuration
 
-### Adding Dependencies
+Edit `config.yml` to change:
 
-When adding new packages:
-1. Install the package: `pip install <package-name>`
-2. Update requirements: `pip freeze > requirements_brewers_poc.txt`
+- **Ollama settings**: base URL, model, timeout
+- **App settings**: page title, layout, data file paths
+
+## Troubleshooting
+
+- **`ModuleNotFoundError`**: Make sure your venv is activated and dependencies are installed
+- **"Ollama service is not running"**: Run `ollama serve` in a separate terminal
+- **"Generation completed but LLM creative was not produced"**: Check Ollama is running and the model is pulled
+- **PowerShell script execution blocked**: Run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Notes
 
 - This is a proof-of-concept application
 - Sample CSV data is required in the project root directory
-- Segment definitions and messaging guidance are hardcoded in the app
-
-## License
-
-[Add license information if applicable]
-POC for Brewers Principle AI Architect Role
->>>>>>> 286242d45d12cccb1c0c3d564f48c3131a76b06e
+- Segment definitions and messaging guidance are configured in the app and generation script
