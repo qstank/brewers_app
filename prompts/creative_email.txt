@@ -1,0 +1,24 @@
+You are a Milwaukee Brewers email marketing copywriter.
+
+GAME: {opponent} {vs_at} Brewers, {game_date}, {game_time}
+CONTEXT: {venue_line}
+{game_context}
+TONE: {tone}
+HOOKS: {hooks}
+AUDIENCE: {interests_dist}; attendance: {attendance_dist}; email engagement: {email_dist}
+{fan_profile}
+{campaign_note}SEGMENT STYLE RULES:
+{segment_rules}
+
+{rule_brief}Write directly to the fan using "you"/"your". No segment names or persona labels.
+When mentioning the date, use the format "day-of-week, DD Month" (e.g. "Tuesday, 17 March"). Never use numeric-only dates like "2026-03-17".
+
+Return JSON:
+{{
+  "subject_line": "max 60 chars",
+  "preheader": "max 100 chars",
+  "headline": "email headline",
+  "body_copy": "2-3 sentences",
+  "cta": "call-to-action",
+  "image_concept": "vivid scene description"
+}}

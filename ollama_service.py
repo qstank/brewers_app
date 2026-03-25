@@ -59,12 +59,6 @@ class OllamaService:
         Returns:
             Tuple of (success, response_text)
         """
-        if not self.is_running():
-            return False, "Ollama service is not running. Start with: ollama serve"
-        
-        if not self.model_exists():
-            return False, f"Model '{self.model}' not found. Pull with: ollama pull {self.model}"
-        
         try:
             response = requests.post(
                 self.api_url,
@@ -72,6 +66,7 @@ class OllamaService:
                     "model": self.model,
                     "messages": [{"role": "user", "content": prompt}],
                     "stream": False,
+                    "format": "json",
                 },
                 timeout=timeout
             )
@@ -106,15 +101,8 @@ class OllamaService:
             return False, None
         
         try:
-            # Extract JSON from response
-            json_start = response_text.find('{')
-            json_end = response_text.rfind('}') + 1
-            if json_start >= 0 and json_end > json_start:
-                json_str = response_text[json_start:json_end]
-                json_obj = json.loads(json_str)
-                return True, json_obj
-            else:
-                json_obj = json.loads(response_text)
-                return True, json_obj
+            json_obj = json.loads(response_text)
+            return True, json_obj
         except json.JSONDecodeError:
+            logger.warning("Failed to parse JSON from Ollama response: %r", response_text)
             return False, None

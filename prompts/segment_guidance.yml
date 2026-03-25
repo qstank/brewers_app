@@ -1,0 +1,39 @@
+Die-hard:
+  tone: "baseball-smart, energetic, insider"
+  hooks:
+    - "division battle"
+    - "pitching matchup"
+    - "see the roster live"
+    - "ballpark energy"
+  image: "Action-forward image with batter/pitcher focus, scoreboard details, and strong Brewers branding."
+  cta: "See tickets"
+
+F&B:
+  tone: "appetizing, lively, experience-first"
+  hooks:
+    - "ballpark eats"
+    - "cold beer"
+    - "try something new"
+    - "make the game your night out"
+  image: "Food-and-drink-led image concept with branded cups, concession favorites, and stadium background."
+  cta: "Plan your night"
+
+Family:
+  tone: "welcoming, easy, family-friendly"
+  hooks:
+    - "easy family outing"
+    - "weekend memory"
+    - "kids love game day"
+    - "simple night out together"
+  image: "Family-focused image with parents and kids smiling in seats, mascot/stadium atmosphere, daylight or early evening feel."
+  cta: "Bring the family"
+
+Social:
+  tone: "social, upbeat, group-energy"
+  hooks:
+    - "weekend vibes"
+    - "pregame energy"
+    - "friends night out"
+    - "grab seats and make it a plan"
+  image: "Social scene with friends in Brewers gear, drinks/food nearby, lively concourse or tailgate-adjacent feel."
+  cta: "Grab your seats"

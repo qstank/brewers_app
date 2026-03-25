@@ -7,7 +7,7 @@ ollama:
   model: "mistral"
   
   # Request timeout in seconds
-  timeout: 60
+  timeout: 120
 
 # App Configuration
 app:
