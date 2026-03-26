@@ -447,4 +447,5 @@ def build_ollama_service() -> OllamaService:
     return OllamaService(
         base_url=ollama_config.get("base_url", "http://localhost:11434"),
         model=ollama_config.get("model", "mistral"),
+        timeout=ollama_config.get("timeout", 120),
     )

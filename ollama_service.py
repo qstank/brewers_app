@@ -12,15 +12,17 @@ logger = logging.getLogger(__name__)
 class OllamaService:
     """Service for interacting with Ollama local LLM API."""
     
-    def __init__(self, base_url: str = "http://localhost:11434", model: str = "mistral"):
+    def __init__(self, base_url: str = "http://localhost:11434", model: str = "mistral", timeout: int = 120):
         """Initialize Ollama service.
         
         Args:
             base_url: Ollama API base URL (default: http://localhost:11434)
             model: Model name to use (default: mistral)
+            timeout: Request timeout in seconds for generation calls (default: 120)
         """
         self.base_url = base_url
         self.model = model
+        self.timeout = timeout
         self.api_url = f"{base_url}/api/chat"
         self.tags_url = f"{base_url}/api/tags"
     
@@ -49,16 +51,17 @@ class OllamaService:
         models = self.get_models()
         return self.model in models or any(self.model in model for model in models)
     
-    def generate_text(self, prompt: str, timeout: int = 60) -> tuple[bool, str]:
+    def generate_text(self, prompt: str, timeout: int | None = None) -> tuple[bool, str]:
         """Generate text using Ollama.
         
         Args:
             prompt: Input prompt
-            timeout: Request timeout in seconds
+            timeout: Request timeout in seconds (defaults to self.timeout)
         
         Returns:
             Tuple of (success, response_text)
         """
+        timeout = timeout if timeout is not None else self.timeout
         try:
             response = requests.post(
                 self.api_url,
@@ -85,16 +88,17 @@ class OllamaService:
         except Exception as e:
             return False, f"Error: {str(e)}"
     
-    def generate_json(self, prompt: str, timeout: int = 60) -> tuple[bool, Optional[dict]]:
+    def generate_json(self, prompt: str, timeout: int | None = None) -> tuple[bool, Optional[dict]]:
         """Generate JSON response using Ollama.
         
         Args:
             prompt: Input prompt
-            timeout: Request timeout in seconds
+            timeout: Request timeout in seconds (defaults to self.timeout)
         
         Returns:
             Tuple of (success, json_object or None)
         """
+        timeout = timeout if timeout is not None else self.timeout
         success, response_text = self.generate_text(prompt, timeout)
         
         if not success:

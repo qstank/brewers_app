@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 
 import pandas as pd
 import streamlit as st
@@ -16,6 +17,8 @@ from creative_engine import (
     load_data,
     save_results,
 )
+
+logger = logging.getLogger(__name__)
 
 st.set_page_config(page_title="Brewers Email Marketing Engine", layout="wide")
 
@@ -92,6 +95,7 @@ def load_llm_creative(game_date: str, segment: str) -> dict | None:
             data = json.load(f)
         return data.get("llm")  # Return LLM creative if it exists
     except Exception as e:
+        logger.warning("Failed to load creative from %s: %s", filepath, e)
         st.error(f"Error loading creative: {e}")
         return None
 
@@ -130,6 +134,7 @@ def run_batch_generation(segment: str, game_date: str, use_llm: bool = True, fan
 
         return True, None
     except Exception as e:
+        logger.exception("Generation failed for segment=%s game=%s", segment, game_date)
         return False, f"Generation failed: {e}"
 
 
