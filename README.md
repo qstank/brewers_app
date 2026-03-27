@@ -66,7 +66,7 @@ ollama serve
 ### 1. Create a Virtual Environment
 
 ```powershell
-python -m venv venv
+python -m venv .venv
 ```
 
 ### 2. Set PowerShell Execution Policy (Windows only, one-time)
@@ -80,10 +80,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### 3. Activate the Virtual Environment
 
 ```powershell
-.\venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 ```
 
-Your terminal prompt should now start with `(venv)`.
+Your terminal prompt should now start with `(.venv)`.
 
 ### 4. Install Dependencies
 
@@ -107,7 +107,7 @@ You can change the model in `config.yml` under `ollama.model`.
 
 ## Running the Application
 
-Make sure your venv is activated. Ollama is only required if you want AI-generated creative.
+Make sure your .venv is activated. Ollama is only required if you want AI-generated creative.
 
 macOS:
 
@@ -119,7 +119,7 @@ streamlit run brewers_poc_app.py
 Windows PowerShell:
 
 ```powershell
-.\venv\Scripts\streamlit.exe run brewers_poc_app.py
+.\.venv\Scripts\streamlit.exe run brewers_poc_app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`.
