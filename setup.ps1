@@ -91,7 +91,7 @@ if (-not (Test-Path ".\venv")) {
 
 # Activate venv and install requirements
 Write-Host "Installing Python dependencies..." -ForegroundColor Yellow
-& .\venv\Scripts\pip.exe install -r requirements_brewers_poc.txt --quiet
+& .\venv\Scripts\pip.exe install -r requirements.txt --quiet
 Write-Host "✓ Dependencies installed" -ForegroundColor Green
 
 Write-Host "`n=== Setup Complete! ===" -ForegroundColor Cyan
