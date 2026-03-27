@@ -22,7 +22,7 @@ brewers_app/
 ├── generate_creative.py               # CLI batch generation wrapper
 ├── ollama_service.py                  # Ollama API client
 ├── config.yml                         # App and Ollama configuration
-├── requirements_brewers_poc.txt       # Python dependencies
+├── requirements.txt                  # Python dependencies
 ├── prompts/
 │   ├── creative_email.txt             # LLM prompt template with placeholders
 │   ├── segment_guidance.yml           # Segment tone, hooks, image, CTA definitions
@@ -46,11 +46,12 @@ brewers_app/
 
 ### macOS Quick Start
 
+
 ```bash
 brew install python@3.14
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements_brewers_poc.txt
+pip install -r requirements.txt
 ollama pull mistral
 streamlit run brewers_poc_app.py
 ```
@@ -88,7 +89,7 @@ Your terminal prompt should now start with `(.venv)`.
 ### 4. Install Dependencies
 
 ```powershell
-pip install -r requirements_brewers_poc.txt
+pip install -r requirements.txt
 ```
 
 ### 5. Set Up Ollama (for AI Creative Generation)
