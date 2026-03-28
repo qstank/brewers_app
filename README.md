@@ -77,7 +77,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ollama pull mistral
-streamlit run brewers_poc_app.py
+.venv/bin/streamlit run brewers_poc_app.py
 ```
 
 If Ollama is not already running in the background, start it with:
@@ -113,7 +113,7 @@ Your terminal prompt should now start with `(.venv)`.
 ### 4. Install Dependencies
 
 ```powershell
-pip install -r requirements.txt
+.venv\Scripts\pip install -r requirements.txt
 ```
 
 ### 5. Set Up Ollama (for AI Creative Generation)
@@ -138,13 +138,13 @@ macOS:
 
 ```bash
 source .venv/bin/activate
-streamlit run brewers_poc_app.py
+.venv/bin/streamlit run brewers_poc_app.py
 ```
 
 Windows PowerShell:
 
 ```powershell
-.\.venv\Scripts\streamlit.exe run brewers_poc_app.py
+.venv\Scripts\streamlit.exe run brewers_poc_app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`.
