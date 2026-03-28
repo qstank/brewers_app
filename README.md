@@ -1,5 +1,29 @@
 # Brewers Tailored Marketing Engine POC
 
+> **Disclaimer:**
+> Image generation with Ollama's image models (e.g., `x/z-image-turbo`) requires a large amount of RAM (typically 16GB or more, depending on the model). Insufficient memory will result in errors or failed image generation. For best results, close other applications and ensure your system meets the model's requirements. See the Ollama documentation for details.
+
+## Image Generation Feature
+
+The app supports **AI-powered image generation** for marketing creative using Ollama's local image models (e.g., `x/z-image-turbo`).
+
+- **How it works:**
+   - For each creative (rule-based or LLM), an "image concept" prompt is generated based on segment rules and game context.
+   - Click the **🖼️ Generate Image** button in the UI to create an image from the current creative's concept prompt.
+   - Images are generated via the Ollama API and displayed directly in the app.
+
+- **Requirements:**
+   - Ollama must be running locally (`ollama serve`)
+   - The `x/z-image-turbo` (or compatible) image model must be pulled: `ollama pull x/z-image-turbo`
+   - Sufficient RAM (image models require significant memory; see Ollama docs)
+
+- **Troubleshooting:**
+   - If you see "Not enough RAM for image model", close other applications or use a machine with more memory.
+   - If you see "Model is not available", ensure the image model is pulled and listed in Ollama (`ollama list`).
+   - Check Ollama logs for additional errors.
+
+You can change the image model in `config.yml` under `ollama.image_model` if needed.
+
 A Streamlit-based proof-of-concept application for the Milwaukee Brewers that personalizes ticket promotions and marketing messaging by fan segment, with optional AI-generated creative via a local Ollama model.
 
 ## Features
