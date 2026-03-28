@@ -20,5 +20,5 @@ Return JSON:
   "headline": "email headline",
   "body_copy": "2-3 sentences",
   "cta": "call-to-action",
-  "image_concept": "vivid scene description"
+  "image_concept": "Describe a specific scene for this game. Place the Brewers as the center of the scene. Use details from the matchup, fans, and atmosphere. Do not use words like 'imagine' or 'picture'—just describe the scene as if the reader is seeing it."
 }}

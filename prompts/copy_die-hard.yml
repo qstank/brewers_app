@@ -10,7 +10,7 @@ home:
   subject: "{opponent} vs. Brewers: be there {daypart}"
   preheader: "For fans who follow every matchup, this is one to catch live on {game_date}."
   headline: "Catch the matchup live against {opponent}"
-  body: "You follow the details, and this game gives you a reason to be in the ballpark. With interest around {interests}, now is a great time to lock in a home game ticket for {game_date} at {game_time}."
+  body: "You're a season ticket holder and a true fan-your passion for the game is unmatched. Join us at American Family Field for our home game against {opponent} on {game_date} at {game_time}. Every pitch is a chance to make a memory."
 away:
   subject: "Brewers at {opponent}: don't miss this road matchup"
   preheader: "The Crew heads to {opponent} on {game_date} - tune in or travel."
