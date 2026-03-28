@@ -205,7 +205,7 @@ def _friendly_date(game_row: pd.Series) -> str:
     start_date = game_row.get("START DATE")
     if pd.notna(start_date):
         ts = pd.Timestamp(start_date)
-        return ts.strftime("%A, %-d %B")
+        return ts.strftime("%A, %d %B")
     return game_row.get("GAME_DATE_DISPLAY", "")
 
 
