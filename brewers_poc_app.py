@@ -241,9 +241,9 @@ if st.session_state.llm_creative:
                     elif err_msg and "Not enough RAM" in err_msg:
                         st.error("Image generation failed: Not enough RAM for image model. Please close other applications or use a machine with more memory.")
                     else:
-                        st.error(f"Image generation failed.\nPrompt: {prompt}\nError: {err_msg if err_msg else 'Unknown error'}\nCheck Ollama logs and ensure the x/z-image-turbo model is available.")
+                        st.error(f"Image generation failed. {err_msg if err_msg else 'Unknown error'}")
                 except Exception as e:
-                    st.error(f"Image generation error: {e}\nPrompt: {prompt}")
+                    st.error(f"Image generation error: {e}")
 
     with col_llm:
         st.write("**LLM Generated**")
@@ -259,9 +259,9 @@ if st.session_state.llm_creative:
                     elif err_msg and "Not enough RAM" in err_msg:
                         st.error("Image generation failed: Not enough RAM for image model. Please close other applications or use a machine with more memory.")
                     else:
-                        st.error(f"Image generation failed.\nPrompt: {prompt}\nError: {err_msg if err_msg else 'Unknown error'}\nCheck Ollama logs and ensure the x/z-image-turbo model is available.")
+                        st.error(f"Image generation failed. {err_msg if err_msg else 'Unknown error'}")
                 except Exception as e:
-                    st.error(f"Image generation error: {e}\nPrompt: {prompt}")
+                    st.error(f"Image generation error: {e}")
 else:
     st.write("**Rule-Based Output** (Click button above to generate AI version)")
     _display_creative(creative, creative["rationale"])
