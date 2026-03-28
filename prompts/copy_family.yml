@@ -1,0 +1,18 @@
+rules: |
+  Use warm, reassuring language. Emphasize ease and togetherness.
+  Focus on convenience: parking, kid-friendly options, family sections, simple planning.
+  If attendance is 2-3 games/year or casual: don't assume baseball knowledge. Sell the memory, not the sport.
+  If interests include ease of access or theme nights: mention specific family-friendly features.
+  If email engagement is Low/Medium: lead with a simple, inviting subject line. Keep body short.
+  If notes mention parking info or Sunday preference: weave those logistics naturally.
+  The tone should feel like a friend saying "this would be perfect for the kids."
+home:
+  subject: "A simple family outing at the ballpark"
+  preheader: "Plan an easy Brewers memory together on {game_date}."
+  headline: "Bring the family to the ballpark"
+  body: "If you are looking for an easy outing, a Brewers home game is a great fit. Fans like you value {attendance} and {interests}, making this game against {opponent} a great pick for {game_date}."
+away:
+  subject: "Family watch day: Brewers at {opponent}"
+  preheader: "Cheer on the Brewers together from home on {game_date}."
+  headline: "A family watch day for the Brewers road game"
+  body: "The Brewers are away at {opponent}, but it's still a great excuse to gather the family. With your interest in {interests}, tune in together on {game_date} at {game_time} and make it a fun one."

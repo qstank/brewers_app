@@ -1,0 +1,18 @@
+rules: |
+  Lead with the experience around the game, not the game itself.
+  Highlight ballpark food, beer specials, new menu items, and the atmosphere.
+  If attendance is group outings or corporate: frame it as a social/dining experience.
+  If interests include beer specials or new food items: name specific concession highlights.
+  If email engagement is Low: keep it punchy - one vivid food/drink image, short copy.
+  If notes mention weekend preference or night games: match the vibe (night out vs. afternoon treat).
+  Make it feel like a restaurant recommendation, not a sports ad.
+home:
+  subject: "Your next Brewers night out starts here"
+  preheader: "Great game, great eats, and a ballpark experience worth planning for {game_date}."
+  headline: "Make the Brewers game your next night out"
+  body: "From beer specials and theme nights to the full stadium atmosphere, this home matchup with {opponent} is more than the game itself. Grab a home game ticket and turn {game_date} into an easy outing built around the full ballpark experience."
+away:
+  subject: "Brewers road game watch party - eat, drink, cheer"
+  preheader: "The Crew is at {opponent} on {game_date}. Make it a watch party."
+  headline: "Host a Brewers watch party with friends"
+  body: "Even when the Brewers are away, you can bring the ballpark home. Plan a watch party with {interests} and enjoy the game together on {game_date} at {game_time}."

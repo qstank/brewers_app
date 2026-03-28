@@ -50,10 +50,10 @@ brewers_app/
 ├── prompts/
 │   ├── creative_email.txt             # LLM prompt template with placeholders
 │   ├── segment_guidance.yml           # Segment tone, hooks, image, CTA definitions
-│   ├── rules_die-hard.txt             # Die-hard segment style rules
-│   ├── rules_fb.txt                   # F&B segment style rules
-│   ├── rules_family.txt               # Family segment style rules
-│   └── rules_social.txt               # Social segment style rules
+│   ├── copy_die-hard.yml              # Die-hard segment rules and copy (YAML)
+│   ├── copy_fb.yml                    # F&B segment rules and copy (YAML)
+│   ├── copy_family.yml                # Family segment rules and copy (YAML)
+│   └── copy_social.yml                # Social segment rules and copy (YAML)
 ├── data/
 │   ├── GameTicketPromotionPrice.csv   # Game schedule and pricing data
 │   └── brewers mock fan data.csv      # Sample fan data
@@ -162,7 +162,7 @@ The app will open in your browser at `http://localhost:8501`.
 
 - **`creative_engine.py`** is the single source of truth for segment definitions, data loading, rule-based creative, and LLM creative generation. Both the Streamlit app and the CLI script import from it.
 - **`brewers_poc_app.py`** is a thin UI layer — it renders creative and handles Streamlit state, but contains no business logic.
-- **`prompts/`** contains all externalized prompt content: the main LLM prompt template (`creative_email.txt`), segment guidance (`segment_guidance.yml`), and per-segment style rules (`rules_*.txt`). Changes to prompts require no code changes.
+- **`prompts/`** contains all externalized prompt content: the main LLM prompt template (`creative_email.txt`), segment guidance (`segment_guidance.yml`), and per-segment YAML files (`copy_*.yml`) that include both rules and copy for each segment. Changes to prompts require no code changes.
 - **`generate_creative.py`** is a thin CLI wrapper for batch generation with `--segment`, `--game`, `--use-llm`, `--limit`, and `--workers` options.
 - **`ollama_service.py`** handles Ollama API communication (health checks, model listing, text/JSON generation). Uses Ollama's native `format: "json"` parameter for reliable structured output.
 - Ollama is optional for basic app usage, but required for the AI-generated side-by-side comparison.
@@ -186,5 +186,5 @@ Edit `config.yml` to change:
 
 - This is a proof-of-concept application
 - Sample CSV data is required in the `data/` directory
-- Segment definitions and messaging guidance live in `prompts/segment_guidance.yml` and `prompts/rules_*.txt`
+- Segment definitions and messaging guidance live in `prompts/segment_guidance.yml` and `prompts/copy_*.yml`
 - Dates in generated creative use "day-of-week, DD Month" format (e.g. "Tuesday, 17 March")

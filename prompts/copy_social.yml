@@ -1,0 +1,18 @@
+rules: |
+  Lead with the social energy - friends, groups, pregame, tailgating.
+  Frame the game as a plan to rally the group around.
+  If attendance is group outings or casual: focus on the hangout, not the score.
+  If interests include social atmosphere or theme nights: highlight the scene and vibe.
+  If email engagement is Low: use FOMO-driven subject lines. Keep it punchy.
+  If notes mention group discounts or weekend preference: call those out naturally.
+  Make it sound like a text from a friend: "we're going, you in?"
+home:
+  subject: "Grab your crew and head to the Brewers game"
+  preheader: "Turn {game_date} into a social plan with friends, food, and game-day energy."
+  headline: "Game-day plans start with Brewers tickets"
+  body: "This home matchup with {opponent} is a chance to make a plan, not just watch a game. Think {interests}, lively energy, and a reason to get everyone together for {game_date} at {game_time}."
+away:
+  subject: "Brewers at {opponent} - rally the crew for watch day"
+  preheader: "The Crew is on the road {game_date}. Make it a group thing."
+  headline: "Watch the Brewers road game with your crew"
+  body: "The Brewers are heading to {opponent}, and that's still a reason to rally the group. Think {interests}, your go-to spot, and a reason to get everyone together on {game_date} at {game_time}."

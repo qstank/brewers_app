@@ -1,0 +1,18 @@
+rules: |
+  Use insider, baseball-smart language. Assume deep team knowledge.
+  Reference matchups, pitching, roster moves, and division standings.
+  If attendance is season ticket holder or 15+ games: speak like a fellow fan, not a marketer.
+  If interests include division rivals or pitching matchups: lead with the competitive angle.
+  If email engagement is High/Very High: include specific stats or roster details.
+  If notes mention lineup emails or trade follows: reward that with insider content.
+  Keep copy sharp and confident - no soft sells.
+home:
+  subject: "{opponent} vs. Brewers: be there {daypart}"
+  preheader: "For fans who follow every matchup, this is one to catch live on {game_date}."
+  headline: "Catch the matchup live against {opponent}"
+  body: "You follow the details, and this game gives you a reason to be in the ballpark. With interest around {interests}, now is a great time to lock in a home game ticket for {game_date} at {game_time}."
+away:
+  subject: "Brewers at {opponent}: don't miss this road matchup"
+  preheader: "The Crew heads to {opponent} on {game_date} - tune in or travel."
+  headline: "Brewers take on {opponent} on the road"
+  body: "The Brewers are heading to {opponent} territory, and with your interest in {interests}, this is a road game worth watching. Catch every pitch on {game_date} at {game_time}."

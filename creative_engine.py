@@ -32,25 +32,20 @@ def _load_segment_guidance() -> dict:
 SEGMENT_GUIDANCE = _load_segment_guidance()
 
 
-SEGMENT_RULES_FILES = {
-    "Die-hard": "rules_die-hard.txt",
-    "F&B": "rules_fb.txt",
-    "Family": "rules_family.txt",
-    "Social": "rules_social.txt",
-}
+
 
 NL_DIVISION = {"Cubs", "Cardinals", "Reds", "Pirates"}
 
 
 def _load_segment_rules(segment: str) -> str:
-    """Load segment-specific prompt rules from prompts/ directory."""
-    filename = SEGMENT_RULES_FILES.get(segment)
-    if not filename:
+    """Load segment-specific prompt rules from the YAML copy file for each segment."""
+    seg_key = segment.lower().replace("&", "").replace(" ", "_")
+    copy_path = PROMPTS_DIR / f"copy_{seg_key}.yml"
+    if not copy_path.exists():
         return ""
-    rules_path = PROMPTS_DIR / filename
-    if rules_path.exists():
-        return rules_path.read_text().strip()
-    return ""
+    with open(copy_path, "r") as f:
+        copy_templates = yaml.safe_load(f)
+    return copy_templates.get("rules", "").strip()
 
 
 def _build_game_context(game_row: pd.Series, is_home: bool) -> str:
@@ -209,7 +204,9 @@ def _friendly_date(game_row: pd.Series) -> str:
     return game_row.get("GAME_DATE_DISPLAY", "")
 
 
+
 def build_rule_based_creative(game_row: pd.Series, segment: str, summary: dict, extra_notes: str = "") -> dict:
+    """Build rule-based creative using segment copy templates from prompts/copy_<segment>.yml."""
     g = SEGMENT_GUIDANCE[segment]
     game_date = _friendly_date(game_row)
     opponent = game_row.get("OPPONENT", "")
@@ -222,74 +219,30 @@ def build_rule_based_creative(game_row: pd.Series, segment: str, summary: dict, 
     interests = ", ".join(summary.get("interests", [])[:2]) or "game-day moments"
     attendance = ", ".join(summary.get("attendance_behavior", [])[:2]) or "live games"
 
-    if segment == "Die-hard":
-        if is_home:
-            subject = f"{opponent} vs. Brewers: be there {daypart}"
-            preheader = f"For fans who follow every matchup, this is one to catch live on {game_date}."
-            headline = f"Catch the matchup live against {opponent}"
-            body = (
-                f"You follow the details, and this game gives you a reason to be in the ballpark. "
-                f"With interest around {interests}, now is a great time to lock in a home game ticket for {game_date} at {game_time}."
-            )
-        else:
-            subject = f"Brewers at {opponent}: don't miss this road matchup"
-            preheader = f"The Crew heads to {opponent} on {game_date} — tune in or travel."
-            headline = f"Brewers take on {opponent} on the road"
-            body = (
-                f"The Brewers are heading to {opponent} territory, and with your interest in {interests}, "
-                f"this is a road game worth watching. Catch every pitch on {game_date} at {game_time}."
-            )
-    elif segment == "F&B":
-        if is_home:
-            subject = "Your next Brewers night out starts here"
-            preheader = f"Great game, great eats, and a ballpark experience worth planning for {game_date}."
-            headline = "Make the Brewers game your next night out"
-            body = (
-                f"From {interests} to the full stadium atmosphere, this home matchup with {opponent} is more than the game itself. "
-                f"Grab a home game ticket and turn {game_date} into an easy outing built around the full ballpark experience."
-            )
-        else:
-            subject = "Brewers road game watch party — eat, drink, cheer"
-            preheader = f"The Crew is at {opponent} on {game_date}. Make it a watch party."
-            headline = "Turn this away game into an event"
-            body = (
-                f"The Brewers are on the road at {opponent}, but that doesn't mean you can't make it a night. "
-                f"Gather around {interests} at your favorite spot and cheer the team on {game_date} at {game_time}."
-            )
-    elif segment == "Family":
-        if is_home:
-            subject = "A simple family outing at the ballpark"
-            preheader = f"Plan an easy Brewers memory together on {game_date}."
-            headline = "Bring the family to the ballpark"
-            body = (
-                f"If you are looking for an easy outing, a Brewers home game is a great fit. "
-                f"Fans like you value {attendance} and {interests}, making this game against {opponent} a great pick for {game_date}."
-            )
-        else:
-            subject = f"Family watch day: Brewers at {opponent}"
-            preheader = f"Cheer on the Brewers together from home on {game_date}."
-            headline = "A family watch day for the Brewers road game"
-            body = (
-                f"The Brewers are away at {opponent}, but it's still a great excuse to gather the family. "
-                f"With your interest in {interests}, tune in together on {game_date} at {game_time} and make it a fun one."
-            )
-    else:
-        if is_home:
-            subject = "Grab your crew and head to the Brewers game"
-            preheader = f"Turn {game_date} into a social plan with friends, food, and game-day energy."
-            headline = "Game-day plans start with Brewers tickets"
-            body = (
-                f"This home matchup with {opponent} is a chance to make a plan, not just watch a game. "
-                f"Think {interests}, lively energy, and a reason to get everyone together for {game_date} at {game_time}."
-            )
-        else:
-            subject = f"Brewers at {opponent} — rally the crew for watch day"
-            preheader = f"The Crew is on the road {game_date}. Make it a group thing."
-            headline = "Watch the Brewers road game with your crew"
-            body = (
-                f"The Brewers are heading to {opponent}, and that's still a reason to rally the group. "
-                f"Think {interests}, your go-to spot, and a reason to get everyone together on {game_date} at {game_time}."
-            )
+    # Load segment copy template
+    # Normalize segment key to match file naming (e.g., 'Die-hard' -> 'die-hard')
+    seg_key = segment.lower().replace("&", "").replace(" ", "_")
+    copy_path = PROMPTS_DIR / f"copy_{seg_key}.yml"
+    if not copy_path.exists():
+        raise FileNotFoundError(f"Missing copy template: {copy_path}")
+    with open(copy_path, "r") as f:
+        copy_templates = yaml.safe_load(f)
+    context_key = "home" if is_home else "away"
+    copy = copy_templates[context_key]
+
+    # Format copy with variables
+    format_vars = dict(
+        opponent=opponent,
+        game_date=game_date,
+        game_time=game_time,
+        daypart=daypart,
+        interests=interests,
+        attendance=attendance,
+    )
+    subject = copy["subject"].format(**format_vars)
+    preheader = copy["preheader"].format(**format_vars)
+    headline = copy["headline"].format(**format_vars)
+    body = copy["body"].format(**format_vars)
 
     return {
         "type": "rule-based",
