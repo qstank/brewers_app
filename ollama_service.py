@@ -11,6 +11,38 @@ logger = logging.getLogger(__name__)
 
 class OllamaService:
     """Service for interacting with Ollama local LLM API."""
+
+    def generate_image(self, prompt: str, model: str = "x/z-image-turbo", timeout: int | None = None) -> tuple[bool, Optional[bytes], Optional[str]]:
+        """Generate an image using Ollama's image API.
+        Args:
+            prompt: The image prompt to send.
+            model: The image model to use (default: x/z-image-turbo).
+            timeout: Request timeout in seconds.
+        Returns:
+            Tuple of (success, image bytes or None, error message or None)
+        """
+        timeout = timeout if timeout is not None else self.timeout
+        api_url = f"{self.base_url}/api/generate"
+        try:
+            response = requests.post(
+                api_url,
+                json={
+                    "model": model,
+                    "prompt": prompt,
+                    "format": "png"
+                },
+                timeout=timeout
+            )
+            if response.status_code != 200:
+                # Check for RAM error in response text
+                if response.text and "requires" in response.text and "but only" in response.text and "are available" in response.text:
+                    logger.error("Ollama image generation failed: Not enough RAM for model. Response: %s", response.text)
+                    return False, None, "Not enough RAM for image model. See Ollama logs."
+                return False, None, response.text
+            return True, response.content, None
+        except Exception as e:
+            logger.warning(f"Ollama image generation failed: {e}")
+            return False, None, str(e)
     
     def __init__(self, base_url: str = "http://localhost:11434", model: str = "mistral", timeout: int = 120):
         """Initialize Ollama service.
