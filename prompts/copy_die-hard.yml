@@ -1,11 +1,13 @@
 rules: |
   Use insider, baseball-smart language. Assume deep team knowledge.
-  Reference matchups, pitching, roster moves, and division standings.
+  Reference matchups, pitching, lineup watch, roster moves, and standings context only when supported by the provided game context.
   If attendance is season ticket holder or 15+ games: speak like a fellow fan, not a marketer.
-  If interests include division rivals or pitching matchups: lead with the competitive angle.
-  If email engagement is High/Very High: include specific stats or roster details.
-  If notes mention lineup emails or trade follows: reward that with insider content.
-  Keep copy sharp and confident - no soft sells.
+  If interests include division rivals or pitching matchups: lean into the competitive angle only if the provided matchup supports it.
+  If email engagement is High/Very High: include sharper, more specific detail when supported by the input.
+  If notes mention lineup emails, lineup changes, or trade follows: reward that with subtle insider content.
+  Do not assume every competitive game is a division game or rivalry game.
+  Do not use phrases like "division battle," "division race," "rivalry game," or similar framing unless the provided game context explicitly supports them.
+  If the game is not explicitly framed as divisional or rivalry-based, focus on the quality of the matchup, home-field atmosphere, lineup intrigue, pitching angle, or game timing instead.
 home:
   subject: "{opponent} vs. Brewers: be there {daypart}"
   preheader: "For fans who follow every matchup, this is one to catch live on {game_date}."

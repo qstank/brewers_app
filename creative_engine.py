@@ -35,6 +35,25 @@ SEGMENT_GUIDANCE = _load_segment_guidance()
 
 
 NL_DIVISION = {"Cubs", "Cardinals", "Reds", "Pirates"}
+PRIMARY_RIVALS = {"Cubs", "Cardinals"}
+
+def _game_flags(game_row: pd.Series) -> dict:
+    opponent = str(game_row.get("OPPONENT", "")).strip()
+    is_division = opponent in NL_DIVISION
+    is_rivalry = opponent in PRIMARY_RIVALS
+
+    if is_rivalry:
+        competitive_framing = "rivalry matchup"
+    elif is_division:
+        competitive_framing = "division matchup"
+    else:
+        competitive_framing = "non-division matchup"
+
+    return {
+        "division_game": "Yes" if is_division else "No",
+        "rivalry_game": "Yes" if is_rivalry else "No",
+        "competitive_framing": competitive_framing,
+    }
 
 
 def _load_segment_rules(segment: str) -> str:
@@ -78,9 +97,11 @@ def _build_game_context(game_row: pd.Series, is_home: bool) -> str:
         else:
             lines.append(f"DAY: {day_name} — weeknight game, emphasize ease and convenience.")
 
-    # Rivalry
-    if opponent in NL_DIVISION:
-        lines.append(f"RIVALRY: NL Central divisional matchup vs {opponent} — high stakes, extra intensity.")
+    # Division and Rivalry
+    if opponent in PRIMARY_RIVALS:
+        lines.append(f"MATCHUP: Rivalry game vs {opponent} — extra intensity at the ballpark.")
+    elif opponent in NL_DIVISION:
+        lines.append(f"MATCHUP: NL Central game vs {opponent} — divisional familiarity and added edge.")
 
     # Broadcast info for away games
     if not is_home:
@@ -258,15 +279,27 @@ def build_rule_based_creative(game_row: pd.Series, segment: str, summary: dict, 
     }
 
 
-def _build_fan_profile(fan_row: pd.Series) -> str:
+def _build_fan_profile(fan_row: Optional[pd.Series]) -> str:
     """Build a single-fan profile string for prompt injection."""
+    if fan_row is None or len(fan_row) == 0:
+        return ""
+
+    fan_id = fan_row.get("Fan_ID")
+    if pd.isna(fan_id):
+        return ""
+
+    attendance = fan_row.get("Attendance_Behavior", "")
+    email_engagement = fan_row.get("Email_Engagement", "")
+    interests = fan_row.get("Interests", "")
+    notes = fan_row.get("Notes", "")
+
     return (
-        f"PRIMARY TARGET (use this as your main data source, segment data is background context only):\n"
-        f"Fan #{int(fan_row.get('Fan_ID', 0))} — "
-        f"attendance: {fan_row.get('Attendance_Behavior', 'Unknown')}, "
-        f"email engagement: {fan_row.get('Email_Engagement', 'Unknown')}, "
-        f"interest: {fan_row.get('Interests', 'Unknown')}, "
-        f"notes: {fan_row.get('Notes', 'None')}"
+        "PRIMARY TARGET (use this as your main data source, segment data is background context only):\n"
+        f"Fan #{int(fan_id)} — "
+        f"attendance: {attendance or 'Unknown'}, "
+        f"email engagement: {email_engagement or 'Unknown'}, "
+        f"interest: {interests or 'Unknown'}, "
+        f"notes: {notes or 'None'}"
     )
 
 
@@ -289,13 +322,13 @@ def build_llm_creative(
 
     rule_brief = ""
     if rule_based:
-        rule_brief = f"""DRAFT TO ELEVATE:
-- Subject: {rule_based.get('subject_line', '')}
+        rule_brief = f"""- Subject: {rule_based.get('subject_line', '')}
 - Headline: {rule_based.get('headline', '')}
 - Body: {rule_based.get('body_copy', '')}
 - CTA: {rule_based.get('cta', '')}
 - Image: {rule_based.get('image_concept', '')}
-Keep the intent but make it sharper, more personal, and more compelling.
+Keep the original intent, but improve clarity, sharpness, and specificity.
+Do not add stronger stakes, rivalry framing, or urgency unless explicitly supported by the prompt.
 """
 
     venue_line = (
@@ -304,6 +337,7 @@ Keep the intent but make it sharper, more personal, and more compelling.
         f"AWAY game at {game_row.get('OPPONENT', '')}. Fan watches remotely. Broadcast: {broadcast_info or 'Check local listings'}. Do NOT mention buying tickets."
     )
 
+    flags = _game_flags(game_row)
     prompt_template = (PROMPTS_DIR / "creative_email.txt").read_text()
     prompt = prompt_template.format(
         opponent=game_row.get("OPPONENT", ""),
@@ -312,6 +346,9 @@ Keep the intent but make it sharper, more personal, and more compelling.
         game_time=game_row.get("GAME_TIME_DISPLAY", ""),
         venue_line=venue_line,
         game_context=_build_game_context(game_row, is_home),
+        division_game=flags["division_game"],
+        rivalry_game=flags["rivalry_game"],
+        competitive_framing=flags["competitive_framing"],
         tone=g["tone"],
         hooks=", ".join(g["hooks"]),
         interests_dist=interests_dist,

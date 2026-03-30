@@ -9,6 +9,11 @@ CONTEXT:
 {venue_line}
 {game_context}
 
+STRUCTURED GAME FLAGS:
+DIVISION_GAME: {division_game}
+RIVALRY_GAME: {rivalry_game}
+COMPETITIVE_FRAMING: {competitive_framing}
+
 TONE:
 {tone}
 
@@ -54,7 +59,7 @@ AUDIENCE-BASED STYLE RULES:
 Apply audience-specific guidance only if the relevant data is actually provided.
 
 - If fan data or segment data indicates season ticket holder or frequent attendance, speak like a fellow fan, not a marketer.
-- If fan data or segment data indicates interest in division rivals or pitching matchups, lead with the competitive angle.
+- If fan data or segment data indicates interest in division rivals or pitching matchups, lean into the competitive angle only if the provided matchup supports it.
 - If fan data or segment data indicates High or Very High email engagement, reward that with more specificity.
 - If fan data or segment data mentions lineup tracking, roster moves, or trade chatter, include subtle insider-style detail.
 
@@ -72,14 +77,15 @@ GENERAL STYLE RULES:
 - Prefer specificity over broad sports-marketing language.
 - Prefer clean, natural language over cleverness.
 - Avoid exclamation points unless truly warranted.
-
-DRAFT TO ELEVATE:
-{rule_brief}
+- Do not oversell routine games with inflated language.
 
 TASK:
 Keep the original intent, but make the email sharper, more personal when supported by the input, and more compelling.
 Write directly to the fan using "you" and "your."
 Do not use segment names, persona labels, or mention underlying audience data.
+
+DRAFT TO ELEVATE:
+{rule_brief}
 
 DATE RULE:
 When mentioning the date, use this exact format: "day-of-week, DD Month"
@@ -87,11 +93,34 @@ Example: "Tuesday, 17 March"
 Never use numeric-only dates.
 
 MATCHUP ACCURACY RULES:
-- Use only facts supported by the provided game details, context, hooks, or audience data.
+- Use only facts supported by the provided game details, context, hooks, structured game flags, or audience data.
 - Do not invent storylines, standings implications, player details, weather, roster details, or rivalry framing unless they are explicitly supported by the prompt.
-- If the opponent is not a division rival, do not call it a division battle or division race game.
+- If DIVISION_GAME is "No", do not call it a division battle, division race game, or divisional showdown.
+- If RIVALRY_GAME is "No", do not call it a rivalry game or imply rivalry stakes.
 - If playoff implications are not explicitly stated, do not mention them.
+- Do not use escalated or dramatic stakes language unless explicitly supported by the input.
+- Avoid phrases such as "high-stakes," "statement game," "playoff-caliber," "season-defining," "must-win," "intense battle," or similar unless the prompt clearly supports that framing.
 - Keep all game framing accurate to the provided matchup.
+
+COMPETITIVE FRAMING RULE:
+- Use the competitive framing provided in COMPETITIVE_FRAMING as the safest lens for how to describe the game.
+- If COMPETITIVE_FRAMING is "standard matchup", do not add extra stakes on your own.
+- If COMPETITIVE_FRAMING is "non-division matchup", do not introduce division language.
+- If COMPETITIVE_FRAMING is "division matchup", division framing is allowed.
+- If COMPETITIVE_FRAMING is "rivalry matchup", rivalry framing is allowed only if RIVALRY_GAME is "Yes".
+
+LANGUAGE ESCALATION RULE:
+Default to restrained, game-specific language.
+If the matchup is a standard or non-division matchup, do not use dramatic framing words such as:
+- high-stakes
+- showdown
+- statement game
+- heavyweight clash
+- playoff atmosphere
+- rivalry feel
+- must-see battle
+- season-shaping
+Use the simplest accurate framing that still feels sharp and appealing.
 
 SUBJECT LINE RULES:
 - Maximum 60 characters.
@@ -107,6 +136,7 @@ PREHEADER RULES:
 - It should feel informative and useful, not generic.
 - Avoid vague filler like "Don't miss out" or "A great game awaits."
 - Do not use inaccurate framing such as calling every game a rivalry or division matchup.
+- Do not introduce unsupported stakes or labels in the preheader.
 - Think of the preheader as the second line that sharpens the reason to open.
 
 HEADLINE RULES:
@@ -116,9 +146,16 @@ HEADLINE RULES:
   - "Don't miss this game"
   - "Be there tonight"
   - "Catch the action"
+- Do not use inflated or dramatic language for ordinary matchups, including phrases like:
+  - "high-stakes baseball"
+  - "epic showdown"
+  - "must-see battle"
+  - "playoff-caliber clash"
+  - "statement game"
 - The headline should sound sharper, more tailored, and more baseball-aware than a default template.
-- Prefer language tied to the actual draw of the game: the opponent, the home setting, the stakes provided, lineup intrigue, pitching angle, or ballpark atmosphere.
+- Prefer language tied to the actual draw of the game: the opponent, the home setting, the date, the ballpark atmosphere, or a supported baseball angle.
 - Keep it concise and strong, not wordy.
+- The best headlines are often simple and grounded, not dramatic.
 - The headline should be specific enough that it could not be reused unchanged for most other games.
 
 BODY COPY RULES:
@@ -129,6 +166,7 @@ BODY COPY RULES:
 - Reward fan knowledge with sharper detail only when appropriate and supported.
 - Keep the tone confident and clean.
 - Only reference fan habits or preferences if explicitly supported by the input.
+- Do not manufacture urgency unless the prompt provides a real reason for urgency.
 
 CTA RULES:
 - Short, clear, and natural.
@@ -152,24 +190,24 @@ For image_concept:
 - Do not write like a story or screenplay
 - Do not describe feelings abstractly unless tied to visible details
 - Avoid vague phrases like "electric atmosphere" unless you immediately show what creates it
-- Do not write a scene-setting narrative such as "Imagine you're at the ballpark..." or "The viewer is looking at..."
 - Focus on composition, action, setting, and visible game details
 
-GOOD image_concept example:
-A Brewers right-handed batter waits in against the Cubs under the stadium lights at American Family Field, navy-and-gold accents sharp against a packed crowd in Brewers gear. The outfield scoreboard shows a tight late-game score, while fans along the first-base line are on their feet with rally towels raised.
+GOOD IMAGE_CONCEPT EXAMPLE:
+A Brewers right-handed batter waits under the stadium lights at American Family Field, navy-and-gold accents sharp against a packed crowd in Brewers gear. The outfield scoreboard shows a tight late-game score, while fans along the first-base line are on their feet with rally towels raised.
 
-BAD image_concept example:
+BAD IMAGE_CONCEPT EXAMPLE:
 Imagine you are in the park, feeling the excitement of a huge rivalry game as the energy builds around you.
 
 QUALITY BAR:
 Before finalizing, check:
 1. Is the matchup framing accurate?
 2. Does the preheader add value beyond the subject line?
-3. Does the headline avoid generic template language?
+3. Does the headline avoid generic template language and inflated stakes language?
 4. Does the body sound like it is written to a knowledgeable fan, not a broad mailing list?
 5. Does the body avoid unsupported personalization?
 6. Is the image concept visual and specific rather than narrative?
 7. Did you avoid inventing fan traits or game stakes?
+8. If this is a standard matchup, did you keep the language restrained and credible?
 
 Return valid JSON only:
 {{
