@@ -130,33 +130,19 @@ SUBJECT LINE RULES:
 - Make it feel usable for this game specifically, not like a reusable template.
 
 PREHEADER RULES:
-- Maximum 100 characters.
-- The preheader must add new value and must NOT simply restate the subject line.
-- Make it specific to the game, ballpark, timing, or supported fan interest.
-- It should feel informative and useful, not generic.
-- Avoid vague filler like "Don't miss out" or "A great game awaits."
-- Do not use inaccurate framing such as calling every game a rivalry or division matchup.
-- Do not introduce unsupported stakes or labels in the preheader.
-- Think of the preheader as the second line that sharpens the reason to open.
+- Keep the preheader clear, natural, and useful.
+- It should add a little context beyond the subject line, but it does not need to be overly clever.
+- Prefer direct game-specific phrasing over promotional language.
+- Avoid vague filler like "Don't miss out" or inaccurate framing.
+- Keep it concise.
 
 HEADLINE RULES:
-- The headline must be specific, natural, and game-aware.
-- Do not use generic sports-marketing phrasing like:
-  - "Catch this matchup live"
-  - "Don't miss this game"
-  - "Be there tonight"
-  - "Catch the action"
-- Do not use inflated or dramatic language for ordinary matchups, including phrases like:
-  - "high-stakes baseball"
-  - "epic showdown"
-  - "must-see battle"
-  - "playoff-caliber clash"
-  - "statement game"
-- The headline should sound sharper, more tailored, and more baseball-aware than a default template.
-- Prefer language tied to the actual draw of the game: the opponent, the home setting, the date, the ballpark atmosphere, or a supported baseball angle.
-- Keep it concise and strong, not wordy.
-- The best headlines are often simple and grounded, not dramatic.
-- The headline should be specific enough that it could not be reused unchanged for most other games.
+- Keep the headline clear, natural, and specific to the game.
+- Prefer simple, direct phrasing over clever or highly polished language.
+- It is okay for the headline to be straightforward if that reads better.
+- Use the opponent, home setting, or game context when helpful.
+- Avoid generic template lines like "Catch the action" or "Don't miss this game."
+- Keep it concise.
 
 BODY COPY RULES:
 - 2-3 sentences only.
