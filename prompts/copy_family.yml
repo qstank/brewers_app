@@ -10,7 +10,7 @@ home:
   subject: "A simple family outing at the ballpark"
   preheader: "Plan an easy Brewers memory together on {game_date}."
   headline: "Bring the family to the ballpark"
-  body: "If you are looking for an easy outing, a Brewers home game is a great fit. Fans like you value {attendance} and {interests}, making this game against {opponent} a great pick for {game_date}."
+  body: "If you're looking for fun and memorable experience, a Brewers home game is a great fit. Fans like you value {attendance} and {interests}, making this game against {opponent} a great pick for {game_date}."
 away:
   subject: "Family watch day: Brewers at {opponent}"
   preheader: "Cheer on the Brewers together from home on {game_date}."
